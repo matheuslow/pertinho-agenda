@@ -87,6 +87,7 @@ function lote(dir) {
     const src = join(dir, p.pasta);
     // só entra o que já foi renderizado (a fábrica roda em segundo plano); o resto entra na próxima rodada
     if (ids.has(p.id) || !p.arquivos.every((f) => existsSync(join(src, f))) || (p.capa && !existsSync(join(src, p.capa)))) continue;
+    if (p.tipo === "reel") { try { if (!(duracao(join(src, "reel.mp4")) > 3)) continue; } catch { continue; } } // ainda gravando
     const arquivos = copia(src, p.id, p.tipo, p.arquivos, p.legenda ?? "");
     const capa = p.capa ? (copyFileSync(join(src, p.capa), `midia/${p.id}/${p.capa}`), `midia/${p.id}/${p.capa}`) : undefined;
     add({ id: p.id, quando: p.quando, etapa: p.etapa, fonte: "volume", tipo: p.tipo, arquivos, ...(capa ? { capa } : {}), legenda: p.legenda ?? "(story, sem legenda)" });
