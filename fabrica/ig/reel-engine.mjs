@@ -6,14 +6,15 @@
 //  data-tap="1.2" toque de dedo (círculo)  data-type="0.3,22" texto digitado (início, caracteres/s)
 import puppeteer from "puppeteer-core";
 import { spawn } from "node:child_process";
-import { writeFileSync, mkdirSync, readdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { OUT, ARTS, CSS, art, tela, top, logo, card, front, phone, LINK, HANDLE, CHROME, semPonto } from "./kit.mjs";
 
 export const W = 1080, H = 1920, FPS = 30;
 const VBASE = pathToFileURL(join(ARTS, "v")).href + "/";
-const NFR = Object.fromEntries(readdirSync(join(ARTS, "v")).map((c) => [c, readdirSync(join(ARTS, "v", c)).length]));
+// sem a pasta de cenas (passo "junta" da nuvem, que só gera textos) não há quadros a contar
+const NFR = existsSync(join(ARTS, "v")) ? Object.fromEntries(readdirSync(join(ARTS, "v")).map((c) => [c, readdirSync(join(ARTS, "v", c)).length])) : {};
 
 // fundo: clip de vídeo ("v:V01:30:1") ou foto ("hero-risada-no-chao")
 const bg = (b, shade = 0.55, pos = "50% 50%") => {
