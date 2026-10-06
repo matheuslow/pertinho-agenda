@@ -1,0 +1,1 @@
+{ "name": "pertinho-fabrica", "private": true, "type": "module", "dependencies": { "puppeteer-core": "25.12.0" } }

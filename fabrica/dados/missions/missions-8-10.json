@@ -1,0 +1,900 @@
+[
+  {
+    "slug": "entrevista-pro-cargo-de-pai-ou-mae",
+    "titulo": "Sua avaliação de desempenho",
+    "resumo": "{nome} vira chefe do RH e faz a sua avaliação anual como pai ou mãe, com nota, elogio e ponto a melhorar.",
+    "passos": [
+      "Diga a {nome} que chegou a sua avaliação anual no cargo de pai ou mãe. Quem avalia é {nome}; você responde sem fugir.",
+      "Sugira as perguntas: 'o que eu faço bem no cargo', 'o que eu faço de chato', 'o que você quer mais este ano'.",
+      "No fim, {nome} dá a nota, um elogio e um ponto a melhorar. Aceite sem se defender e diga o que vai tentar."
+    ],
+    "por_que_importa": "Inverter o poder por 15 minutos, com humor, mostra a {nome} que a opinião de filho sobre você pesa de verdade.",
+    "dica_adaptacao": "Se {nome} travar, facilite: nota de 0 a 10 em três quesitos bobos, tipo 'piadas', 'lanches' e 'carona'.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "avaliacao",
+      "humor",
+      "opiniao"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "me-ensina-o-jogo-que-eu-nao-entendo",
+    "titulo": "Me ensina o jogo que eu não entendo",
+    "resumo": "{nome} explica, sem tela, o jogo de que mais gosta, até você conseguir explicar de volta sem errar.",
+    "passos": [
+      "Peça a {nome} pra explicar o jogo favorito como se você fosse jogar amanhã. Sem abrir celular ou console.",
+      "Faça perguntas de quem não entende nada: 'por que isso vale ponto', 'o que acontece se morrer', 'quem é o vilão'.",
+      "Explique o jogo de volta. Cada erro seu é um ponto pra {nome}. Anote o placar pra próxima vez."
+    ],
+    "por_que_importa": "Ser especialista no assunto de que mais gosta, com você prestando atenção de verdade, é raro pra {nome}. E é bom.",
+    "dica_adaptacao": "Se {nome} não tiver jogo, vale um esporte, um desenho ou uma brincadeira da escola que você não conhece.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "games",
+      "ensina",
+      "escuta"
+    ],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "tres-verdades-e-uma-mentira-do-dia",
+    "titulo": "Três verdades e uma mentira do dia",
+    "resumo": "Na mesa do jantar, cada um conta quatro coisas do dia e o outro precisa descobrir qual é a inventada.",
+    "passos": [
+      "Na mesa, proponha: cada um conta quatro coisas que aconteceram hoje, uma é mentira. Você começa pra dar o tom.",
+      "{nome} tem uma chance de apontar a mentira. Acertou, ponto de {nome}. Errou, ponto seu. Depois invertam.",
+      "Façam três rodadas. Quem ganhar escolhe a sobremesa ou a música do carro amanhã."
+    ],
+    "por_que_importa": "Pra esconder uma mentira, {nome} precisa contar três verdades do dia, e isso rende mais que 'como foi a escola'.",
+    "dica_adaptacao": "Se {nome} disser que o dia não teve nada, deixe valer a semana inteira ou coisas que {nome} sabe sobre você.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "jantar",
+      "dia",
+      "jogo"
+    ],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "debate-pizza-e-sanduiche",
+    "titulo": "Debate: pizza é sanduíche?",
+    "resumo": "No carro, um defende que pizza é sanduíche e o outro que não, com tempo marcado e direito a réplica.",
+    "passos": [
+      "Sorteie o lado: {nome} escolhe cara ou coroa pra defender 'pizza é sanduíche' ou 'pizza não é sanduíche'.",
+      "Cada um tem 1 minuto pra argumentar sem ser interrompido, depois 30 segundos de réplica. Vale exemplo absurdo.",
+      "Sem juiz: o veredito é de quem cedeu primeiro. Emende outro tema: 'cereal é sopa?', 'cachorro-quente é sanduíche?'."
+    ],
+    "por_que_importa": "Argumentar com regra, mesmo sobre bobagem, ensina {nome} a defender uma ideia sem virar briga.",
+    "dica_adaptacao": "Se {nome} achar o tema bobo, peça outra polêmica; costuma vir algo melhor.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "carro",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "debate",
+      "carro",
+      "humor"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "tradutor-oficial-de-giria",
+    "titulo": "Tradutor oficial de gíria",
+    "resumo": "No caminho do mercado, {nome} te ensina as gírias da escola e você precisa usar cada uma numa frase sem passar vergonha.",
+    "passos": [
+      "Na caminhada, peça a {nome} três gírias ou expressões que o pessoal da escola usa e que você não entende.",
+      "Pra cada uma, {nome} explica o significado e dá um exemplo. Você tenta usar numa frase e recebe nota de 0 a 10.",
+      "Em casa, use uma delas com alguém da família. {nome} decide se ficou natural e se você tem licença pra usar em público."
+    ],
+    "por_que_importa": "Deixar {nome} te corrigir mostra que filho também sabe coisas que você não sabe, e que isso tem valor.",
+    "dica_adaptacao": "Se {nome} tiver vergonha de ensinar, inverta: ensine uma gíria da sua época e aguente a zoeira.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "conversa",
+    "tags": [
+      "giria",
+      "ensina",
+      "mercado"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "reuniao-de-diretoria-da-casa",
+    "titulo": "Reunião de diretoria da casa",
+    "resumo": "Uma decisão real da casa é tomada com {nome} na cadeira de diretor, com pauta, argumentos e voto.",
+    "passos": [
+      "Escolha antes uma decisão pequena em que qualquer resultado serve pra você: sabor da pizza, filme, passeio de sábado.",
+      "Abra a reunião: {nome} é o diretor, você é o conselheiro. Cada um apresenta uma proposta e ouve a do outro sem cortar.",
+      "Votem. O que for decidido vale de verdade, e {nome} anuncia pra casa."
+    ],
+    "por_que_importa": "Decidir algo que acontece de verdade dá a {nome} peso na família, que é o que toda criança dessa idade vive pedindo.",
+    "dica_adaptacao": "Se {nome} tentar pautar algo grande demais, aceite como 'pauta da próxima reunião' e mantenha a pequena hoje.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "decisao",
+      "familia",
+      "autonomia"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "ranking-dos-medos-bobos",
+    "titulo": "Ranking dos medos bobos",
+    "resumo": "Cada um monta o seu top 3 de medos ridículos e, no fim, conta um de verdade. De dia, longe da hora de dormir.",
+    "passos": [
+      "No sofá ou no carro, de dia, comece pelo seu: 'meu top 3 de medos bobos é...'. Quanto mais ridículo, melhor.",
+      "Peça o top 3 de {nome}. Depois, os dois falam um medo de verdade, sem rir e sem tentar resolver nada.",
+      "Feche perguntando qual medo bobo vocês podiam encarar juntos no fim de semana."
+    ],
+    "por_que_importa": "Falar de medo com humor é o jeito mais fácil de {nome} contar o que realmente pesa, sem clima de conversa séria.",
+    "dica_adaptacao": "Se {nome} não quiser falar dos de verdade, deixe só os bobos; o convite fica aberto pra outra noite.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "medo",
+      "escuta",
+      "humor"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "verdade-ou-verdade",
+    "titulo": "Verdade ou verdade",
+    "resumo": "Um 'verdade ou desafio' sem desafio, em que {nome} escolhe o nível da pergunta que vai responder.",
+    "passos": [
+      "No jantar, explique: quem responde escolhe o nível da pergunta, de 1 (leve) a 3 (pesada). Você responde primeiro.",
+      "Exemplos: nível 1, 'melhor lanche da escola'; nível 2, 'algo que fez e não contou'; nível 3, 'algo que quer que eu mude'.",
+      "Alternem até acabar o prato. Regra: quem pergunta não pode comentar a resposta, só agradecer."
+    ],
+    "por_que_importa": "Escolher o nível deixa {nome} no controle de quanto se expõe, e justamente por isso acaba se expondo mais.",
+    "dica_adaptacao": "Se {nome} ficar só no nível 1, vá você ao nível 3 uma vez; costuma puxar o outro junto.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "jantar",
+      "perguntas",
+      "confianca"
+    ],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "olimpiada-de-coisas-inuteis",
+    "titulo": "Olimpíada de coisas inúteis",
+    "resumo": "Três provas inventadas na hora, placar de verdade e um campeão da casa até a próxima edição.",
+    "passos": [
+      "Inventem três provas só com o corpo: equilibrar num pé de olhos fechados, ficar mais tempo sem piscar, pular mais em 20 segundos.",
+      "{nome} define as regras e o desempate. Cada prova vale 1 ponto; façam as três e anotem o placar.",
+      "Cerimônia: o campeão sobe numa almofada, faz discurso e escolhe o título ('Campeão do Corredor'). O outro usa até amanhã."
+    ],
+    "por_que_importa": "Competir com regra e placar, em pé de igualdade, é o que {nome} mais respeita nessa idade.",
+    "dica_adaptacao": "Se {nome} achar fácil demais, peça duas provas novas: uma em que {nome} com certeza ganha e outra em que você ganha.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "alta",
+    "tipo": "movimento",
+    "tags": [
+      "competicao",
+      "placar",
+      "humor"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "cada-esquina-uma-regra",
+    "titulo": "Cada esquina, uma regra",
+    "resumo": "A caminhada até a padaria ou o mercado vira um jogo em que cada quarteirão tem uma regra nova de andar.",
+    "passos": [
+      "Antes de sair, combine: a cada esquina, quem chegar primeiro escolhe a regra do próximo quarteirão.",
+      "Vale o que dá pra fazer andando: passos gigantes, sem pisar em rachadura, de costas de mão dada. Pra atravessar a rua, o jogo pausa.",
+      "Quem quebrar a regra perde um ponto. Na volta, o placar decide quem carrega a sacola."
+    ],
+    "por_que_importa": "Uma caminhada boba com regras claras dá a {nome} controle e movimento na mesma dose.",
+    "dica_adaptacao": "Se {nome} achar infantil, mude pra 'missão': vocês são espiões e a regra é o disfarce do quarteirão.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "rua",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": [
+      "caminhada",
+      "mercado",
+      "regras"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "treino-de-agente-secreto",
+    "titulo": "Treino de agente secreto",
+    "resumo": "Um fica de olhos fechados no meio da sala e o outro precisa atravessar até a porta sem fazer barulho nenhum.",
+    "passos": [
+      "Deixe só uma luz acesa. Sente no centro da sala de olhos fechados; {nome} precisa chegar até a porta sem fazer barulho.",
+      "Se ouvir um barulho, aponte na direção. Acertou, {nome} volta pro início. Errou, a travessia segue.",
+      "Troquem de papel. Cada travessia completa vale 1 ponto; melhor de cinco vira o mestre espião da casa."
+    ],
+    "por_que_importa": "Silêncio, atenção e objetivo secreto: {nome} leva esse jogo a sério, e você de meia tentando ser discreto é comédia.",
+    "dica_adaptacao": "Com 5 a 7 anos, vira ninja de meia: o alvo é encostar em você sem ser percebido. Ficou fácil? Almofadas de obstáculo.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": [
+      "espiao",
+      "silencio",
+      "jogo"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "coreografia-de-oito-tempos",
+    "titulo": "Coreografia de oito tempos",
+    "resumo": "Vocês montam uma sequência de oito movimentos, quatro de cada, e apresentam na velocidade que der.",
+    "passos": [
+      "Pode ser dança, comemoração de gol ou entrada de lutador. Você inventa os movimentos 1 a 4; {nome}, do 5 ao 8.",
+      "Ensaiem contando alto até sair inteira. Depois, façam em câmera lenta e em velocidade dobrada.",
+      "Apresentem pra quem estiver em casa. {nome} dá o nome, e ela vira a comemoração oficial da dupla dali em diante."
+    ],
+    "por_que_importa": "Criar algo de corpo inteiro, com você errando junto, tira {nome} da vergonha de se mexer na frente dos outros.",
+    "dica_adaptacao": "Se {nome} tiver vergonha, façam sentados no sofá e em câmera lenta: fica ridículo do mesmo jeito e ninguém dança.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "alta",
+    "tipo": "movimento",
+    "tags": [
+      "danca",
+      "corpo",
+      "humor"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "seu-personal-trainer-tem-nove-anos",
+    "titulo": "Seu novo personal trainer",
+    "resumo": "{nome} monta e comanda o seu treino de dez minutos, e você faz tudo sem reclamar.",
+    "passos": [
+      "Diga a {nome}: 'hoje você é meu personal'. {nome} escolhe cinco exercícios e quantas repetições você faz de cada.",
+      "Seu personal conta, corrige sua postura e dá bronca se você parar. Você pode pedir água uma vez só.",
+      "No fim, você recebe a nota e ouve o que precisa melhorar. Combinem o próximo treino."
+    ],
+    "por_que_importa": "Mandar em você por dez minutos, com você obedecendo e sofrendo de verdade, é poder raro pra {nome}. E faz rir.",
+    "dica_adaptacao": "Se {nome} exagerar, negocie: 'aceito 20 polichinelos se você fizer 10 comigo'. Vira treino a dois.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "alta",
+    "tipo": "movimento",
+    "tags": [
+      "treino",
+      "ensina",
+      "corpo"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "basquete-de-meia",
+    "titulo": "Basquete de meia",
+    "resumo": "Meias enroladas, um cesto de roupa e uma partida com regras de verdade e placar de verdade.",
+    "passos": [
+      "Enrolem cinco pares de meia e coloquem o cesto de roupa (ou um balde) do outro lado da sala.",
+      "Cada um arremessa de três lugares diferentes, do fácil ao quase impossível. Cesta do fácil vale 1, do difícil vale 3.",
+      "Melhor de três rodadas. Quem perder guarda as meias, e a missão já limpa o que bagunçou."
+    ],
+    "por_que_importa": "Um jogo com pontuação clara e dificuldade crescente é o tipo de desafio que {nome} não larga.",
+    "dica_adaptacao": "Se {nome} quiser mais, vale rebater a meia na parede antes da cesta ou arremessar de costas.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": [
+      "arremesso",
+      "placar",
+      "sala"
+    ],
+    "formato": "jogo",
+    "objetivo": "passar tempo"
+  },
+  {
+    "slug": "pega-sombra-debaixo-do-poste",
+    "titulo": "Pega-sombra no escuro",
+    "resumo": "Luz apagada, uma lanterna no chão, e vale pisar na sombra do outro. No quintal ou na garagem fica melhor ainda.",
+    "passos": [
+      "Tire do caminho o que dá pra tropeçar, apague a luz e deixe uma lanterna no chão. Pisar na sombra do outro é ponto.",
+      "Três rodadas de 2 minutos. Entre uma e outra, mudem a luz de lugar: a sombra cresce, encolhe e muda o jogo.",
+      "Fechem com um duelo sem sair do lugar: pés fixos, tentando pisar na sombra do outro só mexendo o corpo."
+    ],
+    "por_que_importa": "Casa no escuro, uma luz só e vocês dois correndo atrás de sombra: tem cara de aventura pra {nome} sem sair de casa.",
+    "dica_adaptacao": "Se tiver área segura e iluminada no prédio ou na rua, a versão com poste é melhor: a sombra fica gigante.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "alta",
+    "tipo": "movimento",
+    "tags": [
+      "noite",
+      "sombra",
+      "correr"
+    ],
+    "formato": "jogo",
+    "objetivo": "gastar energia"
+  },
+  {
+    "slug": "queda-de-braco-com-narrador",
+    "titulo": "Queda de braço com narrador",
+    "resumo": "Um torneio de queda de braço e luta de polegar, com {nome} narrando como se fosse a final do mundial.",
+    "passos": [
+      "Sentem-se à mesa ou no sofá. Melhor de cinco: alternem queda de braço e luta de polegar.",
+      "Quem não está lutando narra: nome de ringue, histórico, torcida. Exagere. {nome} narra a primeira.",
+      "O campeão faz o discurso de vitória; o perdedor dá entrevista explicando o que deu errado."
+    ],
+    "por_que_importa": "Contato físico com disputa e humor é um jeito de {nome} aceitar proximidade sem achar 'coisa de bebê'.",
+    "dica_adaptacao": "Se {nome} achar que você vai deixar ganhar, jogue de verdade com a mão fraca; fingimento {nome} percebe na hora.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "movimento",
+    "tags": [
+      "disputa",
+      "humor",
+      "sofa"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "voce-e-o-ajudante-de-cozinha",
+    "titulo": "Você é o ajudante de cozinha",
+    "resumo": "{nome} escolhe e comanda um lanche de verdade com o que tem na geladeira, e você só faz o que for mandado.",
+    "passos": [
+      "Abram a geladeira e o armário juntos. {nome} decide o que vai fazer: sanduíche, omelete, vitamina, miojo turbinado.",
+      "{nome} comanda cada passo e você executa. Fogo e faca são só com você; o resto, mesmo esquisito, você faz.",
+      "Comam o resultado e {nome} dá o nome oficial do prato. Anote pra virar receita da casa."
+    ],
+    "por_que_importa": "Cozinhar mandando, com um adulto obedecendo, é uma responsabilidade real que {nome} carrega com orgulho.",
+    "dica_adaptacao": "Se {nome} não quiser inventar, a missão é 'melhorar' algo pronto: o miojo, a torrada, o iogurte.",
+    "duracao_min": 30,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "media",
+    "tipo": "criar",
+    "tags": [
+      "cozinha",
+      "autonomia",
+      "receita",
+      "fim-de-semana"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "o-mapa-do-tesouro-da-casa",
+    "titulo": "O mapa do tesouro da casa",
+    "resumo": "{nome} esconde algo seu, desenha o mapa com pistas e você tem dez minutos pra achar.",
+    "passos": [
+      "Dê papel e caneta a {nome} e peça que esconda um objeto seu (chave, carteira, controle) enquanto você espera fora da sala.",
+      "{nome} desenha o mapa da casa com três pistas: uma direta, uma em charada e uma falsa. Você tem 10 minutos.",
+      "Achou, ponto seu. Não achou, ponto de {nome}. No fim de semana vale a versão longa: cada um esconde e desenha."
+    ],
+    "por_que_importa": "Planejar um esconderijo e enganar você com uma pista falsa é raciocínio de verdade disfarçado de brincadeira.",
+    "dica_adaptacao": "Se {nome} achar o mapa 'coisa de bebê', troque por pistas em código de espião, escritas e escondidas pela casa.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "media",
+    "tipo": "criar",
+    "tags": [
+      "tesouro",
+      "pistas",
+      "casa"
+    ],
+    "formato": "jogo",
+    "objetivo": "passar tempo"
+  },
+  {
+    "slug": "comercial-do-produto-mais-inutil",
+    "titulo": "Comercial do produto mais inútil",
+    "resumo": "Cada um pega um objeto qualquer da casa e faz um comercial de 30 segundos convencendo o outro a comprar.",
+    "passos": [
+      "Cada um busca o objeto mais inútil que achar em 1 minuto: pegador de macarrão, meia sem par, controle sem pilha.",
+      "Preparem 2 minutos e apresentem o comercial de 30 segundos: nome do produto, slogan, preço e um depoimento falso.",
+      "O outro decide se compra e diz por quê. Segunda rodada: os dois vendem o mesmo produto e a casa vota."
+    ],
+    "por_que_importa": "Vender uma meia sem par com cara séria é improviso puro, e rir do produto (nunca do vendedor) solta os dois.",
+    "dica_adaptacao": "Se {nome} ficar sem graça, faça você o primeiro comercial, bem ruim; a vontade de te superar resolve o resto.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "criar",
+    "tags": [
+      "improviso",
+      "humor",
+      "venda"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "radio-do-carro-ao-vivo",
+    "titulo": "Rádio do carro, ao vivo",
+    "resumo": "No caminho, o carro vira uma rádio: {nome} apresenta o programa com notícia, previsão do tempo e propaganda da família.",
+    "passos": [
+      "Desligue o som. Anuncie: 'está no ar a rádio da família' e passe o microfone invisível pra {nome}, que apresenta.",
+      "Blocos obrigatórios: notícia do dia de cada um, previsão do tempo pra amanhã, propaganda de alguém da família e recado do ouvinte.",
+      "Você é o ouvinte que liga pra reclamar de algo bobo. Fechem com a música tema cantada pelos dois."
+    ],
+    "por_que_importa": "Em formato de programa, {nome} conta coisas que numa conversa normal viram 'nada'. E a propaganda da família é ouro.",
+    "dica_adaptacao": "Se {nome} não quiser apresentar, troquem: você apresenta e {nome} é o ouvinte chato que liga pra reclamar.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "carro",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": [
+      "carro",
+      "improviso",
+      "dia"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "meme-sem-internet",
+    "titulo": "Meme sem internet",
+    "resumo": "{nome} te explica um meme atual, e vocês criam o meme oficial da família com frase e pose.",
+    "passos": [
+      "Peça a {nome} pra explicar um meme da moda sem mostrar na tela: de onde veio, por que tem graça, como se usa.",
+      "Você tenta usar o meme numa frase e leva correção. Depois criem o meme da família: uma frase, uma pose e quando se usa.",
+      "Valendo a semana: quem encaixar o meme da família na hora certa marca ponto. No domingo sai o campeão."
+    ],
+    "por_que_importa": "Explicar humor pra um adulto exige que {nome} organize a ideia, e ter um meme só de vocês vira piada interna.",
+    "dica_adaptacao": "Se {nome} não quiser explicar, inverta: conte uma piada da sua época e peça a {nome} pra explicar por que não tem graça.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": [
+      "meme",
+      "ensina",
+      "humor"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "a-historia-que-usa-o-quarto-todo",
+    "titulo": "A história que usa o quarto todo",
+    "resumo": "Na cama, vocês inventam uma história frase a frase, e toda frase precisa incluir um objeto do quarto.",
+    "passos": [
+      "Luz baixa. Você começa com uma frase que tenha um objeto do quarto: 'o abajur sabia um segredo'. {nome} continua com outra.",
+      "Regra: cada frase precisa ter um objeto novo, sem repetir. Quem travar por 10 segundos perde a vez.",
+      "Quando acabarem os objetos, os dois fecham a história numa frase só. Amanhã continua de onde parou."
+    ],
+    "por_que_importa": "Inventar junto, com regra, na hora de dormir, dá a {nome} um fim de dia com você no lugar da tela.",
+    "dica_adaptacao": "Se {nome} quiser história de terror ou de zumbi, deixe; o que importa é a regra dos objetos.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": [
+      "dormir",
+      "historia",
+      "improviso"
+    ],
+    "formato": "atividade",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "radar-de-sons-no-escuro",
+    "titulo": "Radar de sons no escuro",
+    "resumo": "Luz apagada, os dois deitados, e a missão é contar e identificar cada som que chega de fora.",
+    "passos": [
+      "Deitem-se no quarto com a luz apagada e a janela aberta, se der. Combinem 3 minutos de silêncio total.",
+      "Cada um conta em segredo quantos sons diferentes ouviu. No fim, comparem e digam o que era cada um: carro, vizinho, cachorro, geladeira.",
+      "Quem achou mais ganha. Empate desempata com o som mais estranho da lista."
+    ],
+    "por_que_importa": "Ficar em silêncio com você, por escolha, acalma {nome} e vira um jeito de desligar o dia sem tela.",
+    "dica_adaptacao": "Se {nome} achar chato, vire 'agente escutando o inimigo': cada som é um alvo a identificar.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "8-10",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "dormir",
+      "silencio",
+      "atencao"
+    ],
+    "formato": "atividade",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "campeonato-de-nao-fazer-nada",
+    "titulo": "Campeonato de não fazer nada",
+    "resumo": "Lado a lado no sofá: quem aguenta mais tempo sem falar, mexer ou pegar nada. Começa com 1 minuto e vai subindo.",
+    "passos": [
+      "Sentem-se lado a lado no sofá, sem celular, sem TV. Ao sinal: sem falar, sem mexer, sem pegar nada. Quem quebrar perde.",
+      "Rodadas de 1, 2 e 3 minutos. Entre elas, cada um conta o que passou pela cabeça no silêncio.",
+      "Se pedirem mais, rodada final valendo dobrado. Anotem o recorde da casa pra bater na próxima."
+    ],
+    "por_que_importa": "No silêncio lado a lado, sem ter que 'fazer nada', é onde {nome} costuma soltar o que estava pensando.",
+    "dica_adaptacao": "Se {nome} não aguentar 2 minutos, comece com 30 segundos e suba de 30 em 30.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "silencio",
+      "sofa",
+      "competicao"
+    ],
+    "formato": "jogo",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "bebida-quente-sem-falar-de-escola",
+    "titulo": "Bebida quente sem falar de escola",
+    "resumo": "Duas canecas de chá, café com leite ou achocolatado quente, e uma regra: escola e trabalho estão proibidos.",
+    "passos": [
+      "Chame {nome} pra esquentar duas canecas com o que tiver: chá, achocolatado, leite com canela. Cada um prepara a sua.",
+      "Sentem-se juntos com a regra: quem falar de escola ou de trabalho paga uma prenda escolhida pelo outro.",
+      "Se a conversa não vier, tudo bem. Beber junto em silêncio também conta."
+    ],
+    "por_que_importa": "Um ritual pequeno e sem cobrança é onde {nome} aprende que ficar com você não precisa ter motivo.",
+    "dica_adaptacao": "Se {nome} não quiser bebida quente, um copo de suco ou água com gelo cumpre a mesma função.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "cozinha",
+      "ritual",
+      "conversa"
+    ],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "respiracao-de-final-de-campeonato",
+    "titulo": "Respiração de final de campeonato",
+    "resumo": "A técnica que atletas e jogadores profissionais usam antes da decisão, treinada em 5 minutos com {nome}.",
+    "passos": [
+      "Diga a {nome} que vai ensinar o que jogador de final usa pra não travar: inspira contando 4, segura 4, solta 4, espera 4.",
+      "Façam 6 ciclos juntos, sentados, de olhos fechados. Um conta em voz alta pro outro, depois trocam.",
+      "Combinem quando {nome} vai usar isso por conta própria: prova, jogo, briga na escola. Quem escolhe o momento é {nome}."
+    ],
+    "por_que_importa": "Uma ferramenta pra se acalmar que vem de você, e não de bronca, é algo que {nome} vai usar quando você não estiver lá.",
+    "dica_adaptacao": "Se {nome} achar bobo, transforme em desafio: quem consegue soltar o ar mais devagar sem parar.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "respiracao",
+      "calma",
+      "esporte"
+    ],
+    "formato": "jogo",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "biblioteca-de-sofa",
+    "titulo": "Biblioteca de sofá",
+    "resumo": "Cada um pega o que quiser ler, gibi, revista ou livro, e vocês leem juntos em silêncio, cada um o seu.",
+    "passos": [
+      "Cada um escolhe algo pra ler em 1 minuto: gibi, livro, revista, até a caixa de cereal. Vale qualquer coisa com letra, menos tela.",
+      "Sentem-se no mesmo sofá, encostados se der, e leiam em silêncio por 10 minutos.",
+      "No fim, cada um lê em voz alta, com voz de locutor de rádio, o trecho mais interessante ou mais ridículo que achou."
+    ],
+    "por_que_importa": "Ver você lendo por escolha, ali do lado, vale mais que qualquer discurso sobre leitura.",
+    "dica_adaptacao": "Se {nome} não quiser ler, vale desenhar ou montar algo em silêncio ao seu lado; a regra é só estar junto sem tela.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "leitura",
+      "sofa",
+      "silencio"
+    ],
+    "formato": "jogo",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "aula-de-cinco-minutos",
+    "titulo": "Aula de cinco minutos",
+    "resumo": "{nome} te ensina em cinco minutos uma coisa que sabe e você não: um drible, um desenho, um truque, um passo.",
+    "passos": [
+      "Peça a {nome}: 'me ensina em cinco minutos uma coisa que você sabe e eu não'. Drible, desenho, truque, passo de dança.",
+      "Seja aluno de verdade: tente, erre, peça pra repetir. {nome} corrige. Proibido dizer 'na minha época'.",
+      "No fim, mostre o que aprendeu e receba a nota. Marquem a próxima aula: o tema é de quem ensina."
+    ],
+    "por_que_importa": "Ser ruim numa coisa na frente de {nome}, e pedir ajuda, aproxima mais que qualquer conversa séria.",
+    "dica_adaptacao": "Se {nome} disser que não sabe nada, sugira: um atalho do celular, uma jogada, uma gíria, como se faz aquele desenho.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "ensina",
+      "humor",
+      "escuta"
+    ],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "tres-musicas-tres-notas",
+    "titulo": "Três músicas, três notas",
+    "resumo": "{nome} escolhe músicas que você precisa ouvir inteiras e avaliar com nota e motivo. Depois você devolve uma da sua época.",
+    "passos": [
+      "No carro ou na cozinha, {nome} põe uma música de que gosta. Você ouve inteira, sem reclamar e sem mexer no celular.",
+      "Dê nota de 0 a 10 e um motivo honesto. Pergunte o que {nome} gosta nela: a letra, a batida, quem apresentou.",
+      "Na terceira, invertam: você escolhe uma da sua adolescência e aguenta a nota que vier."
+    ],
+    "por_que_importa": "Música é a porta mais fácil pro mundo de {nome} nessa idade, e ouvir inteira, sem julgar, é o ingresso.",
+    "dica_adaptacao": "Se {nome} achar que você vai criticar, comece pela sua: ponha uma música antiga e peça nota sem dó.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "musica",
+      "carro",
+      "escuta"
+    ],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "dublagem-ao-vivo",
+    "titulo": "Dublagem ao vivo",
+    "resumo": "Na fila ou no restaurante, vocês dublam baixinho a conversa de quem está longe. Ou de dois pombos. Ou da TV sem som.",
+    "passos": [
+      "Escolham dois alvos longe: duas pessoas conversando, dois pombos, a TV sem som. Cada um dubla um, baixinho.",
+      "Inventem a conversa com vozes. Regra da casa: a dublagem é sobre o assunto, nunca sobre a aparência de ninguém.",
+      "Troquem de alvo a cada minuto. Ganha quem fizer o outro rir primeiro sem levantar a voz."
+    ],
+    "por_que_importa": "Rir escondido, de uma piada que só vocês dois ouviram, é cumplicidade pura. E acaba com o tédio de qualquer espera.",
+    "dica_adaptacao": "Se {nome} achar estranho dublar gente, fiquem nos bichos, nos carros ou nos personagens de uma propaganda.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": [
+      "restaurante",
+      "fila",
+      "espera",
+      "humor"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "duelo-de-parede",
+    "titulo": "Duelo de parede",
+    "resumo": "Cadeira invisível na parede, os dois ao mesmo tempo. Vale distrair, contar piada e fazer careta. Quem levantar perde.",
+    "passos": [
+      "Costas na parede, joelhos dobrados como numa cadeira invisível. Os dois ao mesmo tempo. Quem levantar primeiro perde.",
+      "Vale distrair: contar piada, fazer careta, perguntar coisa difícil. Não vale encostar.",
+      "Revanche na prancha ou num pé só de olhos fechados. Anotem o recorde da casa: {nome} vai querer bater."
+    ],
+    "por_que_importa": "Disputa física de verdade, em que {nome} pode ganhar sem você deixar, tem um gosto que nenhuma outra tem.",
+    "dica_adaptacao": "Se o seu joelho não deixar, troquem por braço esticado segurando um livro. A careta vale do mesmo jeito.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": [
+      "disputa",
+      "corpo",
+      "recorde"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "premiacao-da-semana",
+    "titulo": "Premiação da semana",
+    "resumo": "No jantar de domingo, a família entrega os prêmios da semana: melhor mico, melhor comida, pior ideia, frase do ano.",
+    "passos": [
+      "No jantar, abra a premiação da semana. Categorias: melhor mico, melhor comida, pior ideia, frase do ano.",
+      "Cada um indica um candidato por categoria e defende. Pode se indicar. A votação é levantando o garfo.",
+      "{nome} cria uma categoria nova pra semana que vem. Quem levar 'melhor mico' faz o discurso de agradecimento."
+    ],
+    "por_que_importa": "Rever a semana rindo junto faz {nome} contar o que aconteceu sem ninguém precisar perguntar 'como foi a escola'.",
+    "dica_adaptacao": "Se {nome} não lembrar de nada da semana, comece pelos seus micos: costuma destravar a memória de todo mundo.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "8-10",
+      "11+"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "jantar",
+      "ritual",
+      "semana",
+      "humor"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  }
+]

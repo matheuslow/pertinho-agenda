@@ -1,0 +1,993 @@
+[
+  {
+    "slug": "ponte-de-pernas-na-sala",
+    "titulo": "Ponte de pernas na sala",
+    "resumo": "Deite no chão, vire ponte e túnel, e deixe {nome} passar por baixo e por cima até cansar.",
+    "passos": [
+      "Deite de costas no chão, dobre os joelhos e chame {nome} pra passar por baixo da ponte.",
+      "Varie: ponte alta, ponte baixinha, ponte que 'desaba' devagar quando {nome} está no meio.",
+      "Peça pra {nome} mandar: 'ponte alta', 'ponte fechada'. Você só obedece, sem levantar."
+    ],
+    "por_que_importa": "{nome} manda, você obedece deitado, e a ponte que desaba é risada certa. Boa pro dia em que o corpo não levanta.",
+    "dica_adaptacao": "Se {nome} preferir subir em cima, vire cavalo deitado: barriga pra baixo, e deixe escalar.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "movimento",
+    "tags": [
+      "chao",
+      "corpo",
+      "tunel"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "estatua-que-derrete",
+    "titulo": "Estátua que derrete",
+    "resumo": "Cante, dance e vire estátua com {nome}; quando alguém diz 'derrete', todo mundo escorre até o chão.",
+    "passos": [
+      "Cante qualquer música e dance com {nome}. Quando você parar de cantar, todo mundo vira estátua.",
+      "Diga 'derrete' e escorra devagar até o chão, com barulho de sorvete derretendo. Repita.",
+      "Deixe {nome} mandar: para de cantar, e você congela na hora, na pose mais esquisita."
+    ],
+    "por_que_importa": "Ver você derretendo até o chão com barulho de sorvete é comédia garantida, e dançar junto gasta o resto do dia.",
+    "dica_adaptacao": "Se {nome} não quiser congelar, faça só o derrete: cada vez de um jeito mais bobo.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": [
+      "danca",
+      "musica",
+      "controle"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "corrida-de-bichos-ate-a-parede",
+    "titulo": "Corrida de bichos até a parede",
+    "resumo": "Do sofá até a parede, cada corrida é um bicho diferente: sapo, cobra, elefante, caranguejo.",
+    "passos": [
+      "Escolha um bicho e mostre como ele anda. Vocês dois vão do sofá até a parede daquele jeito.",
+      "Troque a cada ida: sapo pulando, cobra rastejando, elefante pisando forte, gato de mansinho.",
+      "Deixe {nome} inventar o próximo bicho e copie exatamente, até o que não faz sentido."
+    ],
+    "por_que_importa": "Imitar bicho é desculpa pra correr e rir, e {nome} vê você brincando de verdade, de quatro no chão.",
+    "dica_adaptacao": "Perto da hora de dormir, termine de bicho-preguiça: os dois deitados no chão, bocejando devagar.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "alta",
+    "tipo": "movimento",
+    "tags": [
+      "bichos",
+      "imitacao",
+      "corrida"
+    ],
+    "formato": "jogo",
+    "objetivo": "gastar energia"
+  },
+  {
+    "slug": "caca-as-cores-no-quarteirao",
+    "titulo": "Caça às cores no quarteirão",
+    "resumo": "Uma volta no quarteirão procurando tudo que é vermelho, depois azul, depois amarelo.",
+    "passos": [
+      "Saia pra andar com {nome} e escolha uma cor. Quem achar algo dessa cor aponta e grita a cor.",
+      "Achou três? Troque de cor. De vez em quando erre feio: aponte o céu e grite 'vermelho!'. {nome} te corrige com gosto.",
+      "Na volta, pergunte o que {nome} achou de cada cor. Ajude com pistas: 'era grande e fazia barulho'."
+    ],
+    "por_que_importa": "Andar devagar no ritmo de {nome}, olhando o que {nome} olha, é o passeio. A cor é só a desculpa.",
+    "dica_adaptacao": "Se cor ainda não pegou, cace cachorros, motos ou portões: o que {nome} já reconhece.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "rua",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": [
+      "cores",
+      "caminhada",
+      "rua"
+    ],
+    "formato": "jogo",
+    "objetivo": "passar tempo"
+  },
+  {
+    "slug": "aviao-de-canela",
+    "titulo": "Avião de canela",
+    "resumo": "Deite de costas, apoie {nome} de bruços nas suas canelas e faça o avião decolar devagar.",
+    "passos": [
+      "No tapete ou na cama, deite de costas, dobre os joelhos e apoie a barriga de {nome} nas canelas, segurando as duas mãos.",
+      "Levante as pernas devagar fazendo som de motor. Balance pra um lado e pro outro, sem soltar as mãos.",
+      "Faça o pouso com contagem regressiva e pergunte pra onde vai o próximo voo."
+    ],
+    "por_que_importa": "Voar seguro nas suas mãos é pura confiança, e o pouso com contagem regressiva vira pedido de 'de novo'.",
+    "dica_adaptacao": "Antes dos 2 anos e meio, ou se {nome} não quiser subir, o avião leva um boneco e {nome} é o piloto no chão.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": [
+      "aviao",
+      "equilibrio",
+      "colo"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "pega-pega-de-joelhos",
+    "titulo": "Pega-pega de joelhos",
+    "resumo": "Você persegue engatinhando, em câmera lenta e rugindo; {nome} corre em pé e sempre escapa por pouco.",
+    "passos": [
+      "De quatro no tapete (o joelho agradece), avise: 'o monstro de joelhos vai te pegar'. Persiga {nome} bem devagar, rugindo.",
+      "Quase pegue várias vezes e deixe escapar. Quando pegar, é abraço apertado e recomeça.",
+      "Inverta: {nome} de quatro vira o monstro e você foge em pé, morrendo de medo."
+    ],
+    "por_que_importa": "Ser 'quase pego' é alegria pura nessa idade, e o abraço no final fecha a brincadeira com segurança.",
+    "dica_adaptacao": "Se a bagunça subir demais, vire monstro dorminhoco: quem chega perto ganha um bocejo e um abraço lento.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "alta",
+    "tipo": "movimento",
+    "tags": [
+      "pega-pega",
+      "engatinhar",
+      "abraco"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "bolinha-de-meia-na-bacia",
+    "titulo": "Bolinha de meia na bacia",
+    "resumo": "Enrole meias em bolinhas e arremesse numa bacia ou cesto de roupa. Cada acerto, comemoração.",
+    "passos": [
+      "Enrole cinco pares de meia em bolinhas e coloque uma bacia ou cesto de roupa no meio da sala.",
+      "Sentado ao lado de {nome}, joguem as bolinhas. Comece pertinho e afaste a bacia a cada acerto.",
+      "Troque o alvo: cesto no sofá, na cadeira, na sua cabeça. Deixe {nome} escolher onde."
+    ],
+    "por_que_importa": "Acertar a bacia e ganhar comemoração exagerada é festa nessa idade, e meia não quebra nada.",
+    "dica_adaptacao": "Se {nome} preferir, vire o jogo: você joga e {nome} corre pra buscar e trazer de volta.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "baixa",
+    "tipo": "movimento",
+    "tags": [
+      "meias",
+      "arremesso",
+      "mira"
+    ],
+    "formato": "atividade",
+    "objetivo": "passar tempo"
+  },
+  {
+    "slug": "entregador-oficial-da-casa",
+    "titulo": "Entregador oficial da casa",
+    "resumo": "Sentado no sofá, você faz os pedidos; {nome} é o entregador que busca e traz cada coisa.",
+    "passos": [
+      "Sente no sofá e diga: 'entregador, preciso de uma meia'. {nome} busca e entrega. Agradeça com pompa.",
+      "Aumente aos poucos: 'um travesseiro e um sapato'. Duas coisas de uma vez já é desafio nessa idade.",
+      "Faça pedidos bobos: 'me traz o gato', 'me traz um abraço'. Depois {nome} pede e você entrega."
+    ],
+    "por_que_importa": "{nome} adora ser útil de verdade, e 'me traz um abraço' é o melhor pedido da lista. Você nem levanta do sofá.",
+    "dica_adaptacao": "Se {nome} trouxer outra coisa, aceite com alegria e faça o próximo pedido a partir dela.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "movimento",
+    "tags": [
+      "buscar",
+      "memoria",
+      "sofa"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "cade-o-nariz",
+    "titulo": "Cadê o nariz?",
+    "resumo": "Deitados juntos, você pergunta 'cadê o nariz?' e {nome} aponta no seu rosto e no próprio.",
+    "passos": [
+      "Deite ao lado de {nome} e pergunte 'cadê o seu nariz?'. Depois 'cadê o meu?'. Comemore cada acerto.",
+      "Vá pra partes mais difíceis: sobrancelha, cotovelo, queixo, joelho. Erre de propósito pra {nome} corrigir.",
+      "Inverta: {nome} pergunta e você aponta, às vezes errado, esperando ser corrigido."
+    ],
+    "por_que_importa": "Corrigir você é uma delícia pra {nome}, e esse cara a cara deitado é atenção inteira, sem mais nada em volta.",
+    "dica_adaptacao": "Com 3 ou 4 anos, acelere e erre tudo: aponte o joelho dizendo 'nariz' e deixe {nome} te corrigir rindo.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "corpo",
+      "palavras",
+      "deitado"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "telefone-de-mao",
+    "titulo": "Telefone de mão",
+    "resumo": "Mão na orelha, 'trim trim', e você liga pra {nome} do outro lado do sofá pra perguntar do dia.",
+    "passos": [
+      "Faça o telefone com a mão, 'trim trim', e diga: 'alô, é {nome}? Hoje você comeu banana ou comeu pedra?'.",
+      "Ligue de personagens: a vovó, o cachorro, o sol. Cada um pergunta uma coisa boba com voz diferente.",
+      "Deixe {nome} ligar pra você. Atenda com voz de sono, de pressa, de cantor. Sempre atenda."
+    ],
+    "por_que_importa": "No telefone de mentira {nome} conta o que cara a cara não conta, e você atendendo com voz de sono é risada certa.",
+    "dica_adaptacao": "Se {nome} não falar, atenda a ligação e conte você do seu dia, em frases curtas.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "faz-de-conta",
+      "vozes",
+      "dia"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "radar-de-caminhao",
+    "titulo": "Radar de caminhão",
+    "resumo": "No carro, {nome} vira radar: caminhão, ônibus, moto. Cada um tem um grito e um som.",
+    "passos": [
+      "Combine os sons: caminhão é 'fom fom' grave, moto é 'vrum' fino, ônibus é 'psss' de porta abrindo.",
+      "Quem vir primeiro grita o nome e faz o som. Você 'perde' de vez em quando e {nome} te avisa.",
+      "No sinal fechado, pergunte: 'pra onde esse caminhão vai?'. Aceite qualquer resposta e emende uma história."
+    ],
+    "por_que_importa": "O trânsito vira jogo dos dois, e avisar você do caminhão que você 'não viu' faz de {nome} o melhor copiloto do mundo.",
+    "dica_adaptacao": "Se estiver escuro, cace luzes: farol, semáforo, letreiro, cada um com um som.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "carro",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "carro",
+      "sons",
+      "transito"
+    ],
+    "formato": "atividade",
+    "objetivo": "passar tempo"
+  },
+  {
+    "slug": "foto-falada-do-dia",
+    "titulo": "Foto falada do dia",
+    "resumo": "Na cama, luz baixa, vocês 'tiram fotos' do dia com as mãos: clique, e cada um conta uma cena.",
+    "passos": [
+      "Deitados, faça uma câmera com as mãos e 'clique' numa cena do seu dia: 'foto do almoço, tinha arroz'.",
+      "Passe a câmera pra {nome}. Ajude com pergunta curta: 'foto de manhã, o que tinha?'.",
+      "Feche com a última foto: 'foto de agora, a gente aqui'. Guarde a câmera debaixo do travesseiro."
+    ],
+    "por_que_importa": "Reviver o dia em cenas curtas fecha a noite com calma, e {nome} descobre que o seu dia também existe.",
+    "dica_adaptacao": "Com 2 ou 3 anos, faça você as fotos do dia de {nome} com o que sabe e deixe {nome} confirmar ou corrigir.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "dormir",
+      "memoria",
+      "cama"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "tour-guiado-da-casa",
+    "titulo": "Tour guiado pela casa",
+    "resumo": "{nome} é o guia e você o turista que nunca viu a casa: cada cômodo tem uma coisa preferida pra mostrar.",
+    "passos": [
+      "Diga: 'nunca vi essa casa, me mostra'. Peça pra {nome} te levar pela mão até a coisa preferida da sala.",
+      "Faça perguntas de turista bobo: 'isso serve pra quê?', 'quem dorme aqui?'. Fique impressionado com tudo.",
+      "No fim, peça um lugar secreto. Sente lá com {nome} por um minuto sem falar nada."
+    ],
+    "por_que_importa": "Ser quem explica inverte o papel de sempre, e você descobre o que {nome} acha importante na casa.",
+    "dica_adaptacao": "Se {nome} travar, vire o tour pra você: mostre o seu lugar preferido e pergunte se {nome} aprova.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "conversa",
+    "tags": [
+      "casa",
+      "guia",
+      "perguntas"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "nariz-de-detetive-na-cozinha",
+    "titulo": "Nariz de detetive na cozinha",
+    "resumo": "Sentados na cozinha, vocês cheiram café, banana, tempero e limão, e {nome} decide se é 'bom' ou 'eca'.",
+    "passos": [
+      "Na cozinha, use o que já está na bancada: café, banana, um tempero, limão. Nada de produto de limpeza.",
+      "Cheire um de cada vez, exagerando a cara. Pergunte: 'bom ou eca?'. Depois diga o nome da coisa.",
+      "Feche os olhos e {nome} escolhe um cheiro pra você adivinhar. Erre feio: 'isso é chulé de dinossauro?'."
+    ],
+    "por_que_importa": "A sua cara de 'eca' exagerada é metade da graça, e cheiro rende conversa até com quem ainda fala pouco.",
+    "dica_adaptacao": "Se {nome} não quiser cheirar, deixe {nome} só dar os cheiros pra você e apostar se você vai acertar.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": [
+      "cozinha",
+      "cheiros",
+      "sentidos"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "colecao-do-chao",
+    "titulo": "Coleção do chão",
+    "resumo": "Uma volta pela rua ou quintal catando folhas, pedras e gravetos, e uma exposição no degrau da porta.",
+    "passos": [
+      "Saia com {nome} e proponha: 'vamos achar cinco tesouros do chão'. Folha, pedra, graveto, flor caída.",
+      "A cada achado, faça cerimônia: segure como joia e pergunte o nome do tesouro. Deixe {nome} carregar tudo.",
+      "Em casa, enfileire os tesouros no degrau ou na janela. Escolham juntos o preferido do dia."
+    ],
+    "por_que_importa": "Passeio curto, no ritmo de {nome} e sem destino: os tesouros são a desculpa pra vocês andarem juntos sem pressa.",
+    "dica_adaptacao": "Se {nome} não quiser catar, você cata e {nome} aponta o que vale. Lavem as mãos na volta.",
+    "duracao_min": 30,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "rua",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "criar",
+    "tags": [
+      "natureza",
+      "rua",
+      "fim-de-semana"
+    ],
+    "formato": "atividade",
+    "objetivo": "passar tempo"
+  },
+  {
+    "slug": "torre-de-potes-que-desaba",
+    "titulo": "Torre de potes que desaba",
+    "resumo": "Potes de plástico do armário viram torre no chão da cozinha; {nome} constrói, você derruba, e vice-versa.",
+    "passos": [
+      "Tire potes e tampas de plástico do armário e sente no chão da cozinha com {nome}.",
+      "Empilhem juntos até a torre balançar. Conte alto cada pote. Quando cair, comemore o estrondo.",
+      "Deixe {nome} derrubar a sua torre com uma soprada, uma cutucada, uma bolinha de meia."
+    ],
+    "por_que_importa": "Construir junto e derrubar com estrondo: nessa idade não existe piada melhor, e dá pra repetir vinte vezes.",
+    "dica_adaptacao": "Se {nome} só quiser derrubar, construa você o tempo todo e faça suspense antes de cada queda.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "media",
+    "tipo": "criar",
+    "tags": [
+      "cozinha",
+      "empilhar",
+      "potes"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "cabana-de-lencol-no-sofa",
+    "titulo": "Cabana de lençol no sofá",
+    "resumo": "Um lençol sobre o sofá e duas cadeiras, e a sala vira a casa secreta de {nome} por meia hora.",
+    "passos": [
+      "Estique um lençol do encosto do sofá até duas cadeiras. Prenda com almofadas. Pronto, é cabana.",
+      "Entre com {nome} e sussurre: 'aqui ninguém acha a gente'. Leve o boneco preferido pra morar lá.",
+      "Brinque de campainha: quem está fora bate, quem está dentro pergunta 'quem é?' e decide se abre."
+    ],
+    "por_que_importa": "Um espaço pequeno e escuro dá sensação de segurança, e construir junto é o que {nome} vai lembrar.",
+    "dica_adaptacao": "Na hora de desmontar, vira jogo: {nome} é o vento que derruba a cabana e carrega as almofadas de volta.",
+    "duracao_min": 30,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "media",
+    "tipo": "criar",
+    "tags": [
+      "cabana",
+      "lencol",
+      "fim-de-semana",
+      "chuva"
+    ],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "desenho-na-espuma-do-banho",
+    "titulo": "Desenho na espuma do banho",
+    "resumo": "Espuma de sabonete ou shampoo na parede do box vira quadro, e o dedo de {nome} vira pincel.",
+    "passos": [
+      "No banho, faça espuma na mão e passe na parede do box na altura de {nome}. Desenhe um sol com o dedo.",
+      "Peça pra {nome} desenhar. Chute o que é ('um cachorro? um pão?') e comemore quando acertar.",
+      "Apague com o chuveirinho ou a mão e recomece. Antes de sair, um desenho dos dois juntos."
+    ],
+    "por_que_importa": "Vira ritual de banho sem custar um minuto a mais, e você chutando errado ('é um pão?') faz {nome} gargalhar.",
+    "dica_adaptacao": "Se {nome} não quiser desenhar, faça bigode e cabelo de espuma nos dois e mostre no espelho.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": [
+      "banho",
+      "espuma",
+      "desenho"
+    ],
+    "formato": "atividade",
+    "objetivo": "passar tempo"
+  },
+  {
+    "slug": "bicho-de-sombra-na-parede",
+    "titulo": "Bicho de sombra na parede",
+    "resumo": "Luz baixa, um abajur apontado pra parede, e suas mãos viram cachorro, pássaro e cobra.",
+    "passos": [
+      "Apague a luz e aponte um abajur ou a lanterna do celular (tela pra baixo) pra parede. Fique na frente da luz.",
+      "Não precisa saber fazer bicho: braço vira cobra, mão aberta vira monstro, brinquedo vira gigante. {nome} dá os nomes.",
+      "Coloque {nome} na frente da luz pra ver a própria sombra crescer e encolher. Persiga a sombra de {nome}."
+    ],
+    "por_que_importa": "Ver a sombra mudar de tamanho é um mistério que fascina, e a penumbra já prepara pra hora de dormir.",
+    "dica_adaptacao": "Se {nome} tiver medo do escuro, deixe a luz do corredor acesa e faça só sombras engraçadas.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": [
+      "sombra",
+      "luz",
+      "maos"
+    ],
+    "formato": "atividade",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "caminho-de-sapatos",
+    "titulo": "Caminho de sapatos",
+    "resumo": "Cinco pares de sapato enfileirados viram uma estrada que {nome} constrói, percorre e depois desfila.",
+    "passos": [
+      "Pegue uns cinco pares (chinelo e tênis limpo servem) e peça pra {nome} colocar um atrás do outro no corredor.",
+      "Quando a estrada ficar longa, andem sobre ela pisando só nos sapatos. Depois, só do lado de fora.",
+      "Desfile final: {nome} calça o seu sapato, você tenta calçar o de {nome}, e os dois percorrem a estrada. Guardem juntos."
+    ],
+    "por_que_importa": "Enfileirar é mania boa nessa idade, e você tentando andar com um sapato minúsculo no pé fecha com risada.",
+    "dica_adaptacao": "Se {nome} quiser calçar os sapatos grandes, deixe: o caminho vira desfile.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "media",
+    "tipo": "criar",
+    "tags": [
+      "sapatos",
+      "enfileirar",
+      "corredor"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "musica-inventada-com-o-nome",
+    "titulo": "Música inventada com o nome",
+    "resumo": "No carro, no banho ou no sofá, invente uma música que só fala de {nome}: o que comeu, onde foi, o que vai fazer.",
+    "passos": [
+      "Use a melodia de 'parabéns' e troque a letra: '{nome} comeu banana, {nome} foi na escola'.",
+      "Peça uma palavra pra {nome} e encaixe na próxima linha. Cante alto e desafinado, sem vergonha.",
+      "Repita a música inteira pelo menos três vezes. Na terceira, pare no meio e deixe {nome} completar."
+    ],
+    "por_que_importa": "Ouvir o próprio nome numa música feita por você é afeto puro, e completar a rima vira a parte preferida de {nome}.",
+    "dica_adaptacao": "Se {nome} não quiser participar, cante do jeito mais bobo possível até {nome} rir e entrar.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": [
+      "musica",
+      "nome",
+      "carro"
+    ],
+    "formato": "atividade",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "rosto-no-prato",
+    "titulo": "Rosto no prato",
+    "resumo": "Antes de comer, a comida do prato vira um rosto: arroz de cabelo, feijão de olho, cenoura de boca.",
+    "passos": [
+      "Sente ao lado de {nome} no jantar e monte um rosto no seu prato com o que já tem: olhos, boca, cabelo.",
+      "Ajude {nome} a montar o seu. Pergunte: 'esse rosto está feliz ou bravo?'. Mude a boca conforme a resposta.",
+      "Coma o rosto em partes: 'primeiro a orelha'. {nome} decide o que você come em seguida."
+    ],
+    "por_que_importa": "O jantar ganha um momento de humor, e mandar você comer 'primeiro a orelha' é poder de sobra pra um dia só.",
+    "dica_adaptacao": "Se {nome} não quiser mexer no prato, faça só no seu e deixe {nome} mandar qual pedaço você come.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": [
+      "jantar",
+      "comida",
+      "cozinha"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "massagem-de-pizza",
+    "titulo": "Massagem de pizza",
+    "resumo": "As costas de {nome} viram massa de pizza: você sova, espalha o molho, joga o queijo e leva pro forno.",
+    "passos": [
+      "{nome} de bruços na cama. Narre enquanto faz: 'sovar a massa' (amassar de leve), 'esticar' (deslizar as mãos).",
+      "Espalhe o molho com a palma, 'jogue' o queijo com os dedos, coloque os recheios que {nome} pedir.",
+      "Leve pro forno: cubra com o lençol e esquente com as mãos. Termine 'fatiando' de leve com o dedo."
+    ],
+    "por_que_importa": "Toque tranquilo com história desacelera o corpo, e {nome} vai pedir essa pizza toda noite.",
+    "dica_adaptacao": "Se cócegas agitarem {nome}, troque: você é a massa e {nome} é quem cozinha.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "dormir",
+      "massagem",
+      "toque"
+    ],
+    "formato": "atividade",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "boa-noite-pra-cada-coisa",
+    "titulo": "Boa noite pra cada coisa",
+    "resumo": "Antes de apagar a luz, vocês dão boa noite pra tudo no quarto: o abajur, o sapato, a janela, o bicho.",
+    "passos": [
+      "Com a luz já baixa, aponte pelo quarto e diga 'boa noite, janela'. Peça pra {nome} escolher o próximo.",
+      "Deixe as coisas 'responderem' com voz diferente: a cortina sussurra, o sapato fala grosso.",
+      "Termine com 'boa noite, {nome}' e 'boa noite, você', bem baixinho, e apague a luz."
+    ],
+    "por_que_importa": "O ritual repetido avisa o corpo que o dia acabou, e ver tudo dormindo ajuda {nome} a soltar também.",
+    "dica_adaptacao": "Se {nome} não quiser parar, avise que faltam só três coisas e deixe escolher quais.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "dormir",
+      "ritual",
+      "quarto"
+    ],
+    "formato": "atividade",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "chuva-morna-no-banho",
+    "titulo": "Chuva morna no banho",
+    "resumo": "Com {nome} no chão do box ou na banheira, você faz chover devagar com as mãos em concha.",
+    "passos": [
+      "Junte água nas mãos em concha (ou num copo) e deixe escorrer devagar no ombro de {nome}: 'chuva no ombro'.",
+      "Pergunte onde chove agora: mão, pé, joelho, cabeça. Vá devagar, sem pressa de sair do banho.",
+      "Inverta: {nome} faz chover na sua mão ou no seu braço. Feche os olhos e diga como está a chuva."
+    ],
+    "por_que_importa": "Água morna sem pressa acalma o corpo inteiro, e o banho deixa de ser correria pra virar pausa.",
+    "dica_adaptacao": "Se {nome} não quiser água na cabeça, chova só até o pescoço, sempre ao alcance da sua mão.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "banho",
+      "agua",
+      "toque"
+    ],
+    "formato": "atividade",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "escuta-da-casa",
+    "titulo": "Escuta da casa",
+    "resumo": "Deitados no sofá, olhos fechados, vocês descobrem que barulhos a casa faz quando ninguém fala.",
+    "passos": [
+      "Deite com {nome} e diga: 'shh, vamos ouvir a casa'. Fiquem em silêncio por dez segundos.",
+      "Sussurre o que ouviu: geladeira, carro, vizinho, o cachorro. Pergunte o que {nome} ouviu.",
+      "Escolha um som e imitem juntos, baixinho. Depois silêncio de novo, um pouquinho mais longo."
+    ],
+    "por_que_importa": "Meio minuto de silêncio junto, de olho fechado, baixa o ritmo dos dois. E imitar a geladeira baixinho tem sua graça.",
+    "dica_adaptacao": "Se {nome} não conseguir ficar em silêncio, faça só o segundo passo: imitar os sons da casa.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "sons",
+      "silencio",
+      "atencao"
+    ],
+    "formato": "atividade",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "chao-de-lava-com-regras",
+    "titulo": "Chão de lava, versão com regras",
+    "resumo": "A sala vira lava e vocês precisam atravessar pisando só nas almofadas, mas cada rodada ganha uma regra nova inventada por {nome}.",
+    "passos": [
+      "Espalhe almofadas pela sala e diga que o chão virou lava. Vocês precisam ir do sofá até a porta pisando só nelas.",
+      "A cada travessia, {nome} inventa uma regra nova: só num pé, de olhos fechados, carregando um bicho de pelúcia.",
+      "Última rodada: os dois juntos, de mãos dadas. Se um cai na lava, os dois voltam pro começo."
+    ],
+    "por_que_importa": "Inventar e obedecer regras é o jogo favorito dessa idade, e ver você cair na lava junto vale mais que qualquer brinquedo.",
+    "dica_adaptacao": "Com 2 ou 3 anos, sem regras: almofadas são pedras no rio, você dá a mão e quem 'cai' ganha cócegas do jacaré bonzinho.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "alta",
+    "tipo": "movimento",
+    "tags": [
+      "sala",
+      "almofadas",
+      "desafio"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "quente-ou-frio-versao-detetive",
+    "titulo": "Quente ou frio, versão detetive",
+    "resumo": "Você esconde um objeto qualquer e {nome} procura guiado só pela sua voz, que vai de 'Sibéria' a 'vulcão'.",
+    "passos": [
+      "Esconda algo pequeno (meia, controle, colher) enquanto {nome} conta até 20 de olhos fechados no corredor.",
+      "Guie com temperatura: Sibéria, geladeira, morno, sopa quente, vulcão. Quanto mais absurdo o termômetro, melhor.",
+      "Agora é {nome} quem esconde e narra. Vale pedir uma dica extra em troca de um abraço."
+    ],
+    "por_que_importa": "Seu termômetro absurdo faz rir, e na troca de papel {nome} descobre como é bom mandar em você só com a voz.",
+    "dica_adaptacao": "Se a procura empacar, leve {nome} pela mão de olhos fechados até ficar a um passo do objeto e diga 'agora procura'.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": [
+      "esconder",
+      "pistas",
+      "casa"
+    ],
+    "formato": "jogo",
+    "objetivo": "passar tempo"
+  },
+  {
+    "slug": "restaurante-do-cliente-impossivel",
+    "titulo": "Restaurante do cliente impossível",
+    "resumo": "{nome} é o garçom e você é o cliente que pede coisas absurdas; o garçom precisa resolver com o que tem na cozinha.",
+    "passos": [
+      "Sente à mesa e dê um pano de prato pro braço de {nome}. Peça o cardápio e faça pedidos impossíveis: sopa de nuvem, pão sem pão.",
+      "{nome} serve algo real que 'represente' o pedido: copo de água vira sopa de nuvem. Você reclama de tudo, com educação.",
+      "Troque: {nome} é o cliente impossível e você o garçom. Feche pedindo a conta em abraços."
+    ],
+    "por_que_importa": "Improvisar solução pra pedido maluco é raciocínio rápido, e brincar de servir você vira orgulho pra {nome}.",
+    "dica_adaptacao": "Com 3 ou 4 anos, simplifique: você pede comida de brinquedo e {nome} só traz e serve, com o pano no braço.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "media",
+    "tipo": "criar",
+    "tags": [
+      "cozinha",
+      "faz-de-conta",
+      "restaurante"
+    ],
+    "formato": "atividade",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "historia-de-tres-palavras",
+    "titulo": "História de três palavras",
+    "resumo": "{nome} escolhe três palavras sem nexo e você tem que inventar a história de dormir usando as três.",
+    "passos": [
+      "Na cama, peça três palavras: vale girafa, ônibus, pasta de dente. Quanto mais sem sentido juntas, melhor.",
+      "Use a muleta: 'era uma vez um [palavra 1] que queria muito um [palavra 2], até que apareceu um [palavra 3]'. Não precisa ser boa.",
+      "Amanhã troca: você dá as palavras e {nome} conta. Se travar, vocês contam uma frase cada um."
+    ],
+    "por_que_importa": "Ver você inventar sem medo de errar mostra a {nome} que criar é normal, não é talento raro.",
+    "dica_adaptacao": "Se {nome} não quiser as três, aceite uma palavra só e peça que escolha o personagem.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": [
+      "dormir",
+      "historia",
+      "imaginacao"
+    ],
+    "formato": "atividade",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "previsao-do-tempo-nas-costas",
+    "titulo": "Previsão do tempo nas costas",
+    "resumo": "Você desenha o clima nas costas de {nome}, chuva de dedos, sol de círculo, e {nome} adivinha a previsão.",
+    "passos": [
+      "{nome} deita de bruços. Combine o código: dedos batucando é chuva, círculo é sol, mão espalmada é vento, tapinha leve é trovão.",
+      "Faça a previsão de amanhã nas costas, devagar. {nome} narra: 'manhã de sol, tarde com chuva'.",
+      "Troque: {nome} faz a previsão nas suas costas e você adivinha, errando às vezes. Ou fique na chuva fina até o sono chegar."
+    ],
+    "por_que_importa": "Toque calmo e previsível é o jeito mais rápido de baixar o motor de {nome} no fim do dia. E o seu também.",
+    "dica_adaptacao": "Se {nome} tiver cócegas, use só a palma da mão aberta e movimentos lentos, sem dedos.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "dormir",
+      "toque",
+      "relaxar"
+    ],
+    "formato": "jogo",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "nuvem-com-nome-e-sobrenome",
+    "titulo": "Nuvem com nome e sobrenome",
+    "resumo": "Deitados no quintal ou sentados na calçada, vocês dão nome, profissão e destino pra cada nuvem que passa.",
+    "passos": [
+      "Encontrem um lugar pra olhar o céu: quintal, calçada, janela. Deitar é melhor, mas sentado funciona.",
+      "{nome} escolhe uma nuvem e diz com o que parece. Você dá nome e profissão. Pra onde ela está indo com tanta pressa?",
+      "Se não tiver nuvem, o jogo é com o que passar: passarinho, avião, o vizinho de moto."
+    ],
+    "por_que_importa": "Olhar o céu sem pressa, inventando a vida das nuvens, é um descanso raro pros dois, e não precisa de nada.",
+    "dica_adaptacao": "De noite, vale estrela e luz de prédio: quem mora lá? Com filho maior, esqueçam os nomes e só fiquem olhando.",
+    "duracao_min": 15,
+    "faixas_etarias": [
+      "2-4",
+      "5-7",
+      "8-10"
+    ],
+    "local": "rua",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "ceu",
+      "quintal",
+      "imaginacao"
+    ],
+    "formato": "atividade",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "corrida-de-barriga",
+    "titulo": "Corrida de barriga",
+    "resumo": "Cada um deita com um bicho de pelúcia na barriga e a disputa é quem faz o boneco subir e descer mais devagar.",
+    "passos": [
+      "Deitem no chão ou na cama, cada um com um bicho de pelúcia ou uma almofada pequena em cima da barriga.",
+      "Respirem fundo e devagar: o boneco sobe quando o ar entra, desce quando sai. Ganha quem demorar mais pra completar cinco subidas.",
+      "Última rodada de olhos fechados, sem competir. Só ficar ali um pouco."
+    ],
+    "por_que_importa": "Respirar devagar acalma de verdade, e virar corrida é o que faz {nome} querer fazer de novo.",
+    "dica_adaptacao": "Se a disputa agitar {nome}, tire a corrida: uma mão na barriga do outro, enchendo e esvaziando o balão bem devagar.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "respiracao",
+      "calma",
+      "deitado"
+    ],
+    "formato": "jogo",
+    "objetivo": "relaxar"
+  },
+  {
+    "slug": "boneco-sem-pilha",
+    "titulo": "Boneco sem pilha",
+    "resumo": "Você desaba no sofá sem bateria e {nome} precisa achar o botão que te liga. Cada botão faz uma coisa errada.",
+    "passos": [
+      "Desabe no sofá e avise com voz fraca: 'acabou minha pilha'. {nome} precisa achar o botão que te liga de novo.",
+      "Cada botão faz uma coisa: nariz buzina, orelha levanta o braço, joelho dá risada. Nenhum liga de vez.",
+      "O botão certo é um abraço apertado. Aí você liga no máximo por dez segundos, faz cócegas, e a pilha acaba de novo."
+    ],
+    "por_que_importa": "Você descansa de verdade enquanto {nome} ri de verdade. É a missão certa pro dia em que não sobrou nada.",
+    "dica_adaptacao": "Se {nome} quiser ser o boneco, troquem: você procura os botões e cada um faz {nome} soltar um barulho diferente.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "movimento",
+    "tags": [
+      "sofa",
+      "cansaco",
+      "humor"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "sumiu-cade",
+    "titulo": "Ué, cadê {nome}?",
+    "resumo": "{nome} se esconde mal debaixo do lençol e você procura em todos os lugares errados, com cada vez mais drama.",
+    "passos": [
+      "Cubra {nome} com um lençol no sofá (pé de fora pode) e pergunte bem alto: 'ué, cadê {nome}?'.",
+      "Procure nos lugares errados: dentro do sapato, debaixo da almofada, no bolso. Narre tudo, com drama crescente.",
+      "Sente 'sem querer' do lado do montinho, leve um susto e ache. Abraço apertado, e prepare-se pro 'de novo'."
+    ],
+    "por_que_importa": "Ver você procurando com tanta vontade e achando com festa é a versão de 3 anos de 'você é importante pra mim'.",
+    "dica_adaptacao": "Se {nome} não gostar de ficar debaixo do lençol, vale esconder atrás da cortina ou só tapar os olhos com as mãos.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4"
+    ],
+    "local": "casa",
+    "material": "casa",
+    "energia": "baixa",
+    "tipo": "movimento",
+    "tags": [
+      "esconder",
+      "sofa",
+      "humor"
+    ],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "o-que-sumiu-da-mesa",
+    "titulo": "O que sumiu da mesa?",
+    "resumo": "Na espera do restaurante, quatro coisas na mesa, olhos fechados, e uma delas desaparece. O que foi?",
+    "passos": [
+      "Junte quatro coisas na mesa: chave, guardanapo, colher, saleiro. {nome} olha bem e fecha os olhos.",
+      "Tire uma e esconda no colo. 'Abriu!' O que sumiu? Comemore o acerto com pose de mágico que foi pego no truque.",
+      "Troque: {nome} esconde e você adivinha, errando com convicção ('sumiu o elefante!')."
+    ],
+    "por_que_importa": "A espera vira jogo dos dois em vez de briga por celular, e você errando feio é a melhor parte.",
+    "dica_adaptacao": "Com 2 anos, use três objetos e deixe a pontinha do escondido aparecendo no seu colo.",
+    "duracao_min": 5,
+    "faixas_etarias": [
+      "2-4",
+      "5-7"
+    ],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "calma",
+    "tags": [
+      "restaurante",
+      "fila",
+      "espera"
+    ],
+    "formato": "jogo",
+    "objetivo": "passar tempo"
+  }
+]

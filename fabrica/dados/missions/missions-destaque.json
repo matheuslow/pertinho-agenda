@@ -1,0 +1,171 @@
+[
+  {
+    "slug": "o-chefe-maluco",
+    "titulo": "O Chefe Maluco",
+    "resumo": "Hoje as ordens são absurdas — e depois é a vez de {nome} mandar em você.",
+    "passos": [
+      "Diga: 'O chefe mandou andar como se o chão fosse gelatina.' Faça junto, exagerando.",
+      "Invente novas ordens: falar com a língua para fora, andar como um pinguim atrasado ou dançar sem dobrar os joelhos.",
+      "Passe o cargo para {nome}. Obedeça às ordens mais malucas que vierem."
+    ],
+    "por_que_importa": "{nome} vê você entrar de verdade na brincadeira e adora descobrir que também pode comandar.",
+    "dica_adaptacao": "Se ainda for pequeno para inventar ordens, ofereça duas opções: 'O chefe manda virar sapo ou robô?'",
+    "duracao_min": 5,
+    "faixas_etarias": ["2-4", "5-7"],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "alta",
+    "tipo": "movimento",
+    "tags": ["comando", "imitacao", "humor"],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "nao-pode-rir",
+    "titulo": "Não Pode Rir",
+    "resumo": "Um de frente para o outro. Vale careta, voz esquisita e dança ridícula. Só não vale encostar!",
+    "passos": [
+      "Fiquem frente a frente. O desafio é fazer {nome} rir sem fazer cócegas nem encostar.",
+      "Tente caretas, barulhos, uma dança desajeitada ou uma voz que você nunca usou.",
+      "Quando alguém rir, troquem: agora é {nome} quem tenta fazer você perder a pose."
+    ],
+    "por_que_importa": "A graça está em dar atenção um ao outro e deixar {nome} ver seu lado mais brincalhão.",
+    "dica_adaptacao": "Com os menores, esqueçam quem 'perdeu': cada risada vale um ponto para a dupla.",
+    "duracao_min": 5,
+    "faixas_etarias": ["2-4", "5-7"],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": ["caretas", "risada", "humor"],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "espelho-quebrado",
+    "titulo": "Espelho Quebrado",
+    "resumo": "Você é o espelho de {nome}. Só que seu reflexo começa a dar defeito…",
+    "passos": [
+      "Fique de frente para {nome} e copie seus movimentos: mão para cima, careta, giro, pose.",
+      "De repente, erre de propósito. Se {nome} levantar a mão, levante o pé e faça cara de quem não percebeu.",
+      "Deixe {nome} apontar o defeito. A cada erro descoberto, seu espelho fica mais atrapalhado."
+    ],
+    "por_que_importa": "Para notar os 'defeitos', vocês precisam olhar um para o outro. E {nome} se diverte corrigindo você.",
+    "dica_adaptacao": "Troquem os papéis: {nome} vira o espelho com defeito e você tenta descobrir o que mudou.",
+    "duracao_min": 5,
+    "faixas_etarias": ["2-4", "5-7"],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": ["imitacao", "atencao", "humor"],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "o-monstro-da-besteira",
+    "titulo": "O Monstro da Besteira",
+    "resumo": "Um monstro invadiu a casa. Ele quer obedecer a {nome}, mas entende tudo errado.",
+    "passos": [
+      "Vire o monstro e peça que {nome} dê uma ordem simples: 'Senta!', 'Vem aqui!' ou 'Levanta!'",
+      "Faça outra coisa: deite quando pedirem para sentar, ande para trás quando chamarem você.",
+      "Pergunte: 'Como você vai ensinar esse monstro?' Deixe {nome} testar novos jeitos de comandar."
+    ],
+    "por_que_importa": "{nome} assume o controle da cena enquanto você responde com humor às ideias dela.",
+    "dica_adaptacao": "O monstro só entende gestos. {nome} precisa mostrar o que quer sem falar.",
+    "duracao_min": 5,
+    "faixas_etarias": ["2-4", "5-7"],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": ["faz-de-conta", "comandos", "humor"],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "controle-remoto-humano",
+    "titulo": "Controle Remoto Humano",
+    "resumo": "{nome} ganhou um controle imaginário para comandar você: pause, rápido, lento e voltar.",
+    "passos": [
+      "Entregue um controle invisível para {nome} e comece a andar pela sala.",
+      "Obedeça aos botões: congele no 'pause', mova-se em câmera lenta, acelere ou repita tudo ao ouvir 'voltar'.",
+      "Depois troquem. Agora é {nome} quem vira o personagem controlado."
+    ],
+    "por_que_importa": "Você acompanha as escolhas de {nome} na hora, e uma ação simples pode virar uma cena engraçada.",
+    "dica_adaptacao": "Inventem juntos um botão secreto — 'dança', 'voz de pato' ou o que {nome} escolher.",
+    "duracao_min": 5,
+    "faixas_etarias": ["2-4", "5-7"],
+    "local": "casa",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": ["faz-de-conta", "comandos", "humor"],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "animal-secreto",
+    "titulo": "Animal Secreto",
+    "resumo": "Imite um animal sem fazer seu som. Será que {nome} descobre qual é?",
+    "passos": [
+      "Escolha um animal e imite o jeito de andar, olhar ou dormir. Não faça o som típico dele.",
+      "Deixe {nome} adivinhar e peça pistas quando for sua vez de descobrir.",
+      "Troquem: agora {nome} escolhe o animal e você tenta acertar."
+    ],
+    "por_que_importa": "Vocês prestam atenção nos detalhes um do outro e inventam personagens juntos.",
+    "dica_adaptacao": "Acrescentem uma situação: 'um leão com sono' ou 'um elefante procurando o banheiro'.",
+    "duracao_min": 5,
+    "faixas_etarias": ["2-4", "5-7"],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "media",
+    "tipo": "movimento",
+    "tags": ["animais", "imitacao", "adivinhacao"],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  },
+  {
+    "slug": "a-palavra-proibida",
+    "titulo": "A Palavra Proibida",
+    "resumo": "Escolham uma palavra comum. Por três minutos, vale conversar sobre tudo — menos dizer essa palavra.",
+    "passos": [
+      "{nome} escolhe uma palavra proibida, como 'mamãe', 'sim' ou o próprio nome.",
+      "Conversem normalmente. Faça perguntas que deem vontade de responder usando a palavra.",
+      "Quem deixar escapar escolhe a próxima palavra e inventa a primeira pergunta."
+    ],
+    "por_que_importa": "Uma conversa comum vira um jogo compartilhado que cabe numa fila ou no caminho de casa.",
+    "dica_adaptacao": "Com os menores, escolham uma palavra fácil e façam rodadas curtinhas, só pela graça de tentar não dizer. Com os maiores, proíbam duas palavras.",
+    "duracao_min": 5,
+    "faixas_etarias": ["2-4", "5-7"],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "conversa",
+    "tags": ["palavras", "perguntas", "espera"],
+    "formato": "jogo",
+    "objetivo": "rir"
+  },
+  {
+    "slug": "historia-de-uma-palavra-so",
+    "titulo": "História de Uma Palavra Só",
+    "resumo": "Uma história inventada a dois, mas cada pessoa só pode acrescentar uma palavra por vez.",
+    "passos": [
+      "Comece com 'Era…'. {nome} acrescenta uma palavra; você diz a próxima.",
+      "Continuem sem planejar o final. Se a história ficar sem sentido, sigam mesmo assim.",
+      "Quando surgir um personagem engraçado, deem voz a ele e recomecem outra história."
+    ],
+    "por_que_importa": "A história pertence aos dois. Cada palavra de {nome} muda o rumo do que você imaginou.",
+    "dica_adaptacao": "Para crianças menores, troquem a regra: cada um acrescenta uma frase curta ou completa 'Era uma vez um…'.",
+    "duracao_min": 5,
+    "faixas_etarias": ["2-4", "5-7"],
+    "local": "qualquer",
+    "material": "nenhum",
+    "energia": "baixa",
+    "tipo": "criar",
+    "tags": ["historia", "palavras", "imaginacao"],
+    "formato": "jogo",
+    "objetivo": "conectar"
+  }
+]
+

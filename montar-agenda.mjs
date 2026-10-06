@@ -9,7 +9,7 @@ import { join } from "node:path";
 import { execFileSync } from "node:child_process";
 
 const BASE = "../instagram-pertinho";
-const SOM = "C:/Users/Mathe/Documents/Codex/2026-09-10/s/work/pertinho-videos/som";
+const SOM = process.env.PT_SOM ?? "C:/Users/Mathe/Documents/Codex/2026-09-10/s/work/pertinho-videos/som";
 const agenda = existsSync("agenda.json") ? JSON.parse(readFileSync("agenda.json", "utf8")) : [];
 const ids = new Set(agenda.map((p) => p.id));
 const add = (p) => { if (!ids.has(p.id)) { agenda.push(p); ids.add(p.id); } };
@@ -30,7 +30,7 @@ function duracao(f) {
 let giro = 0;
 /** Copia o reel trocando o áudio mudo por trilha própria (fade in/out, volume baixo, começa num ponto diferente a cada reel). */
 export function reelComMusica(src, dest, legenda) {
-  const trilha = MEMORIA.test(legenda) ? `${SOM}/piano-c5.wav` : `${SOM}/trilha-c1.wav`;
+  const trilha = process.env.PT_SOM ? (MEMORIA.test(legenda) ? `${SOM}/piano.m4a` : `${SOM}/trilha.m4a`) : (MEMORIA.test(legenda) ? `${SOM}/piano-c5.wav` : `${SOM}/trilha-c1.wav`);
   const d = duracao(src), ini = [0, 9, 18][giro++ % 3];
   execFileSync("ffmpeg", ["-y", "-v", "error", "-i", src, "-ss", String(ini), "-i", trilha, "-map", "0:v", "-map", "1:a", "-c:v", "copy",
     "-af", `afade=t=in:st=0:d=0.4,afade=t=out:st=${Math.max(0, d - 1.2).toFixed(2)}:d=1.2,volume=0.55`, "-c:a", "aac", "-b:a", "160k", "-shortest", dest]);
