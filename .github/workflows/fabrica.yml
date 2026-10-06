@@ -1,0 +1,70 @@
+name: fabrica
+# Fábrica de volume do @infancia.pertinho na nuvem: todo domingo 00h (Brasília) gera e renderiza os 7 dias seguintes ao
+# último dia já produzido (7 reels + 5 carrosséis + 6 stories por dia) e coloca na agenda que o robô publica.
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+    inputs:
+      dias:
+        description: "datas AAAA-MM-DD separadas por espaço (vazio = os 7 dias seguintes ao último da agenda)"
+        required: false
+        default: ""
+permissions:
+  contents: write
+concurrency: fabrica
+env:
+  PT_OUT: /tmp/pt/out
+  PT_ARTS: /tmp/pt/arts
+  CHROME_PATH: /usr/bin/google-chrome
+  PT_CRF: "24"
+jobs:
+  plano:
+    runs-on: ubuntu-latest
+    outputs:
+      dias: ${{ steps.d.outputs.dias }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: d
+        run: echo "dias=$(node fabrica/proximos-dias.mjs '${{ github.event.inputs.dias }}')" >> "$GITHUB_OUTPUT"
+  render:
+    needs: plano
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: bash fabrica/prepara.sh
+      - run: node fabrica/ig/volume.mjs ${{ needs.plano.outputs.dias }} --shard ${{ matrix.shard }}/4
+        env:
+          PT_AGENDA: ${{ github.workspace }}/agenda.json
+          PT_DADOS: ${{ github.workspace }}/fabrica/dados
+      - uses: actions/upload-artifact@v4
+        with:
+          name: render-${{ matrix.shard }}
+          path: /tmp/pt/out/04-volume
+          retention-days: 3
+  junta:
+    needs: [plano, render]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null && (cd fabrica && npm install --no-audit --no-fund --silent)
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/pt/out/04-volume
+          merge-multiple: true
+      - run: bash fabrica/junta.sh ${{ needs.plano.outputs.dias }}
+        env:
+          PT_AGENDA: ${{ github.workspace }}/agenda.json
+          PT_DADOS: ${{ github.workspace }}/fabrica/dados
+          PT_SOM: ${{ github.workspace }}/fabrica/som
