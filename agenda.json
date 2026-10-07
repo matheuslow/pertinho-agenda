@@ -19,7 +19,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-07T12:05:02.358Z",
+   "atualizado": "2026-10-07T18:03:42.875Z",
    "alcance": 0,
    "visualizacoes": 0,
    "envios": 0,
@@ -50,9 +50,9 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-07T12:05:02.358Z",
-   "alcance": 0,
-   "visualizacoes": 0,
+   "atualizado": "2026-10-07T18:03:42.876Z",
+   "alcance": 2,
+   "visualizacoes": 1,
    "envios": 0,
    "salvos": 0,
    "interacoes": 0
@@ -74,7 +74,19 @@
   "container": "18122494303803649",
   "publicar_tentado": "2026-10-07T12:32:20.649Z",
   "ig": "18137847037714734",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18137847037714734",
+  "link": "https://www.instagram.com/reel/DeMXaRBCdDO/",
+  "metricas": {
+   "curtidas": 0,
+   "comentarios": 0,
+   "atualizado": "2026-10-07T18:03:42.876Z",
+   "alcance": 1,
+   "visualizacoes": 2,
+   "envios": 0,
+   "salvos": 0,
+   "interacoes": 0
+  }
  },
  {
   "id": "10-07-10h00-story",
@@ -90,7 +102,11 @@
   "container": "18122500486803649",
   "publicar_tentado": "2026-10-07T13:00:56.802Z",
   "ig": "18107290594944321",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18107290594944321",
+  "metricas": {
+   "atualizado": "2026-10-07T18:03:42.876Z"
+  }
  },
  {
   "id": "10-07-10h30-story",
@@ -107,7 +123,11 @@
   "container": "18122514361803649",
   "publicar_tentado": "2026-10-07T13:53:27.117Z",
   "ig": "17970396930192459",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "17970396930192459",
+  "metricas": {
+   "atualizado": "2026-10-07T18:03:42.876Z"
+  }
  },
  {
   "id": "10-07-10h45",
@@ -125,7 +145,19 @@
   "container": "18122514406803649",
   "publicar_tentado": "2026-10-07T13:54:02.748Z",
   "ig": "18106742045342964",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18106742045342964",
+  "link": "https://www.instagram.com/reel/DeMgwiTja03/",
+  "metricas": {
+   "curtidas": 0,
+   "comentarios": 0,
+   "atualizado": "2026-10-07T18:03:42.876Z",
+   "alcance": 1,
+   "visualizacoes": 2,
+   "envios": 0,
+   "salvos": 0,
+   "interacoes": 0
+  }
  },
  {
   "id": "10-07-12h00",
@@ -143,7 +175,19 @@
   "container": "18122540602803649",
   "publicar_tentado": "2026-10-07T15:38:57.712Z",
   "ig": "17973365889149684",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "17973365889149684",
+  "link": "https://www.instagram.com/reel/DeMstVqjyGt/",
+  "metricas": {
+   "curtidas": 1,
+   "comentarios": 0,
+   "atualizado": "2026-10-07T18:03:42.876Z",
+   "alcance": 1,
+   "visualizacoes": 1,
+   "envios": 0,
+   "salvos": 0,
+   "interacoes": 1
+  }
  },
  {
   "id": "10-07-12h30",
@@ -161,7 +205,21 @@
   "container": "18122541388803649",
   "publicar_tentado": "2026-10-07T15:39:40.513Z",
   "ig": "18136111237733158",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18136111237733158",
+  "link": "https://www.instagram.com/p/DeMs4KXidk2/",
+  "metricas": {
+   "curtidas": 1,
+   "comentarios": 0,
+   "atualizado": "2026-10-07T18:03:42.876Z",
+   "alcance": 4,
+   "visualizacoes": 5,
+   "envios": 0,
+   "salvos": 0,
+   "interacoes": 1,
+   "visitas_perfil": 0,
+   "seguiu": 0
+  }
  },
  {
   "id": "10-07-13h00-story",
@@ -178,7 +236,11 @@
   "container": "18122548798803649",
   "publicar_tentado": "2026-10-07T16:02:45.946Z",
   "ig": "18106483136096943",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18106483136096943",
+  "metricas": {
+   "atualizado": "2026-10-07T18:03:42.876Z"
+  }
  },
  {
   "id": "G-P8",
@@ -199,7 +261,21 @@
   "container": "18122585359803649",
   "publicar_tentado": "2026-10-07T18:03:33.726Z",
   "ig": "18016580618951612",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18016580618951612",
+  "link": "https://www.instagram.com/p/DeM9WS3jNA-/",
+  "metricas": {
+   "curtidas": 0,
+   "comentarios": 0,
+   "atualizado": "2026-10-07T18:03:42.876Z",
+   "alcance": 0,
+   "visualizacoes": 0,
+   "envios": 0,
+   "salvos": 0,
+   "interacoes": 0,
+   "visitas_perfil": 0,
+   "seguiu": 0
+  }
  },
  {
   "id": "10-07-15h30-story",
