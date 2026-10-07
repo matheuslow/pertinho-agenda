@@ -19,7 +19,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-07T18:03:42.875Z",
+   "atualizado": "2026-10-07T21:03:27.984Z",
    "alcance": 0,
    "visualizacoes": 0,
    "envios": 0,
@@ -50,7 +50,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-07T18:03:42.876Z",
+   "atualizado": "2026-10-07T21:03:27.984Z",
    "alcance": 2,
    "visualizacoes": 1,
    "envios": 0,
@@ -80,8 +80,8 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-07T18:03:42.876Z",
-   "alcance": 1,
+   "atualizado": "2026-10-07T21:03:27.984Z",
+   "alcance": 5,
    "visualizacoes": 2,
    "envios": 0,
    "salvos": 0,
@@ -151,7 +151,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-07T18:03:42.876Z",
+   "atualizado": "2026-10-07T21:03:27.984Z",
    "alcance": 1,
    "visualizacoes": 2,
    "envios": 0,
@@ -181,7 +181,7 @@
   "metricas": {
    "curtidas": 1,
    "comentarios": 0,
-   "atualizado": "2026-10-07T18:03:42.876Z",
+   "atualizado": "2026-10-07T21:03:27.984Z",
    "alcance": 1,
    "visualizacoes": 1,
    "envios": 0,
@@ -211,9 +211,9 @@
   "metricas": {
    "curtidas": 1,
    "comentarios": 0,
-   "atualizado": "2026-10-07T18:03:42.876Z",
+   "atualizado": "2026-10-07T21:03:27.984Z",
    "alcance": 4,
-   "visualizacoes": 5,
+   "visualizacoes": 7,
    "envios": 0,
    "salvos": 0,
    "interacoes": 1,
@@ -267,9 +267,9 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-07T18:03:42.876Z",
-   "alcance": 0,
-   "visualizacoes": 0,
+   "atualizado": "2026-10-07T21:03:27.984Z",
+   "alcance": 1,
+   "visualizacoes": 3,
    "envios": 0,
    "salvos": 0,
    "interacoes": 0,
@@ -292,7 +292,11 @@
   "container": "18122597425803649",
   "publicar_tentado": "2026-10-07T18:56:50.401Z",
   "ig": "18356263477168324",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18356263477168324",
+  "metricas": {
+   "atualizado": "2026-10-07T21:03:27.984Z"
+  }
  },
  {
   "id": "10-07-18h00-story",
@@ -309,7 +313,11 @@
   "container": "18122620648803649",
   "publicar_tentado": "2026-10-07T21:03:18.932Z",
   "ig": "17970125637174329",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "17970125637174329",
+  "metricas": {
+   "atualizado": "2026-10-07T21:03:27.984Z"
+  }
  },
  {
   "id": "G-P7",
