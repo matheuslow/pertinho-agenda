@@ -4,7 +4,7 @@
 //   node montar-agenda.mjs lote <dir> → lote da fábrica de volume (<dir>/lote.json, gerado por ../app/ig-pertinho/volume.mjs)
 // Reels: o motor sai com áudio mudo e a API não põe música do Instagram, então a trilha entra aqui (ffmpeg).
 // Música própria (gerada no ElevenLabs pros anúncios do Pertinho): piano nos de memória, trilha nos de brincadeira.
-import { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";
 
@@ -34,6 +34,16 @@ export function reelComMusica(src, dest, legenda) {
   const d = duracao(src), ini = [0, 9, 18][giro++ % 3];
   execFileSync("ffmpeg", ["-y", "-v", "error", "-i", src, "-ss", String(ini), "-i", trilha, "-map", "0:v", "-map", "1:a", "-c:v", "copy",
     "-af", `afade=t=in:st=0:d=0.4,afade=t=out:st=${Math.max(0, d - 1.2).toFixed(2)}:d=1.2,volume=0.55`, "-c:a", "aac", "-b:a", "160k", "-shortest", dest]);
+}
+
+/** Miniatura de 240 px (aba Instagram do admin). Fica no repo mesmo depois que a poda tira a mídia publicada. */
+export function miniatura(id) {
+  const dir = `midia/${id}`, dest = `${dir}/thumb.jpg`;
+  if (existsSync(dest)) return dest;
+  const src = existsSync(`${dir}/capa.jpg`) ? `${dir}/capa.jpg` : ["1.jpg", ...(existsSync(dir) ? readdirSync(dir) : [])].map((f) => `${dir}/${f}`).find((f) => /\.jpg$/.test(f) && existsSync(f));
+  if (!src) return null;
+  execFileSync("ffmpeg", ["-y", "-v", "error", "-i", src, "-vf", "scale=240:-2", "-q:v", "5", dest]);
+  return dest;
 }
 
 function copia(srcDir, id, tipo, arquivos, legenda) {
@@ -98,6 +108,7 @@ const [modo, arg] = process.argv.slice(2);
 if (modo === "base") base();
 else if (modo === "lote") lote(arg);
 else { console.log("uso: node montar-agenda.mjs base | lote <dir>"); process.exit(1); }
+for (const p of agenda) if (!p.thumb) { const t = miniatura(p.id); if (t) p.thumb = t; }
 agenda.sort((a, b) => a.quando.localeCompare(b.quando));
 writeFileSync("agenda.json", JSON.stringify(agenda, null, 1));
 console.log(agenda.length, "na agenda");

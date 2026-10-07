@@ -5,7 +5,7 @@ const limite = Date.now() - 2 * 86400e3;
 let n = 0;
 for (const p of agenda) {
   if (!p.ig || p.ig === "pular" || new Date(p.quando).getTime() > limite) continue;
-  for (const f of [...(p.arquivos ?? []), p.capa].filter(Boolean)) if (existsSync(f)) { rmSync(f); n++; }
+  for (const f of [...(p.arquivos ?? []), p.capa].filter(Boolean)) if (f !== p.thumb && existsSync(f)) { rmSync(f); n++; }
   const dir = `midia/${p.id}`;
   if (existsSync(dir) && !readdirSync(dir).length) rmSync(dir, { recursive: true });
 }
