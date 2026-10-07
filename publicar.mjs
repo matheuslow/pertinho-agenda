@@ -162,6 +162,8 @@ async function coletarMetricas() {
   const porId = new Map(midias.map((m) => [m.id, m]));
   const norm = (t) => (t || "").replace(/\s+/g, " ").trim().slice(0, 80);
   for (const p of agenda) {
+    // 06/10: story publicado pelo robô já tem o id da mídia (o insight do story só existe por 24 h)
+    if (p.tipo === "story" && p.ig && p.ig !== "pular" && !p.ig_media) { p.ig_media = String(p.ig); p.metricas = { ...(p.metricas || {}), atualizado: new Date().toISOString() }; }
     if (p.tipo === "manual" || p.tipo === "story") continue;
     let m = p.ig && porId.get(String(p.ig));
     if (!m && (p.via === "business_suite" || p.ig_media || p.ig === "confirmado")) m = porId.get(p.ig_media) || midias.find((x) => norm(x.caption) === norm(p.legenda) && Math.abs(new Date(x.timestamp) - new Date(p.quando)) < 6 * 3600e3);
@@ -172,10 +174,18 @@ async function coletarMetricas() {
   let semInsights = false, n = 0;
   for (const p of agenda.filter((x) => x.ig_media && Date.now() - new Date(x.quando) < 14 * 86400e3)) {
     if (semInsights || n++ >= 60) break;
-    try {
-      const r = await api(`${p.ig_media}/insights`, { metric: "reach,views,shares,saved,total_interactions" }, "GET");
-      for (const it of r.data || []) p.metricas[{ reach: "alcance", views: "visualizacoes", shares: "envios", saved: "salvos", total_interactions: "interacoes" }[it.name]] = it.values?.[0]?.value ?? it.total_value?.value ?? null;
-    } catch (e) { if (/permission|scope|#10|#200/i.test(e.message)) { semInsights = true; console.log("insights sem permissão ainda"); } }
+    // 06/10: + visitas ao perfil e seguidores ganhos por post; stories com respostas. Se a lista maior for recusada,
+    // cai pra lista básica (métrica nova que a API não aceita não pode zerar o resto).
+    const NOMES = { reach: "alcance", views: "visualizacoes", shares: "envios", saved: "salvos", total_interactions: "interacoes", profile_visits: "visitas_perfil", follows: "seguiu", replies: "respostas" };
+    const listas = p.tipo === "story" ? ["reach,views,replies,shares,total_interactions,profile_visits,follows", "reach,views,replies,total_interactions"]
+      : ["reach,views,shares,saved,total_interactions,profile_visits,follows", "reach,views,shares,saved,total_interactions"];
+    for (const metric of listas) {
+      try {
+        const r = await api(`${p.ig_media}/insights`, { metric }, "GET");
+        for (const it of r.data || []) p.metricas[NOMES[it.name] ?? it.name] = it.values?.[0]?.value ?? it.total_value?.value ?? null;
+        break;
+      } catch (e) { if (/permission|scope|#10|#200/i.test(e.message)) { semInsights = true; console.log("insights sem permissão ainda"); break; } }
+    }
   }
   console.log("metricas atualizadas", agenda.filter((x) => x.metricas).length);
   await metricasConta().catch((e) => console.error("metricas da conta", e.message));

@@ -214,11 +214,11 @@ for (const [di, data] of DATAS.entries()) {
     if (tipoPub === "reel") {
       const tipo = mixR[i % mixR.length], r = REELS[tipo](dn * 10 + i), pasta = `${base}/${h.replace(":", "h")}-reel-${tipo}`;
       reels.push({ pasta, scenes: r.scenes });
-      lote.push({ id, quando: `${data}T${h}:00-03:00`, etapa: r.etapa, tipo: "reel", pasta, arquivos: ["reel.mp4"], capa: "capa.jpg", legenda: r.legenda });
+      lote.push({ id, quando: `${data}T${h}:00-03:00`, etapa: r.etapa, formato: tipo, tipo: "reel", pasta, arquivos: ["reel.mp4"], capa: "capa.jpg", legenda: r.legenda });
     } else {
       const tipo = MIX_CARROS[i % MIX_CARROS.length], c = CARROS[tipo](dn * 5 + i), pasta = `${base}/${h.replace(":", "h")}-carrossel-${tipo}`;
       c.slides.forEach((s, j) => cards.push({ out: `${pasta}/${j + 1}.jpg`, ...FD, cls: s.cls, html: s.html }));
-      lote.push({ id, quando: `${data}T${h}:00-03:00`, etapa: c.etapa, tipo: "carrossel", pasta, arquivos: c.slides.map((_, j) => `${j + 1}.jpg`), legenda: c.legenda });
+      lote.push({ id, quando: `${data}T${h}:00-03:00`, etapa: c.etapa, formato: tipo, tipo: "carrossel", pasta, arquivos: c.slides.map((_, j) => `${j + 1}.jpg`), legenda: c.legenda });
     }
   });
   livre(STORY_HORAS).slice(0, nS).forEach((h, i) => {
@@ -227,7 +227,7 @@ for (const [di, data] of DATAS.entries()) {
       : t === "mecanismo" || t === "brinc" ? STV[t](brincDe()) : STV[t]();
     const pasta = `${base}/stories`, nome = `${h.replace(":", "h")}-${t}.jpg`;
     cards.push({ out: `${pasta}/${nome}`, ...SY, cls: s.cls, html: s.html });
-    lote.push({ id: `${data.slice(5)}-${h.replace(":", "h")}-story`, quando: `${data}T${h}:00-03:00`, etapa: "story", tipo: "story", pasta, arquivos: [nome] });
+    lote.push({ id: `${data.slice(5)}-${h.replace(":", "h")}-story`, quando: `${data}T${h}:00-03:00`, etapa: "story", formato: t, tipo: "story", pasta, arquivos: [nome] });
   });
 }
 const loteDir = join(OUT, "04-volume");

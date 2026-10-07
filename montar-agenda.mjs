@@ -90,7 +90,7 @@ function lote(dir) {
     if (p.tipo === "reel") { try { if (!(duracao(join(src, "reel.mp4")) > 3)) continue; } catch { continue; } } // ainda gravando
     const arquivos = copia(src, p.id, p.tipo, p.arquivos, p.legenda ?? "");
     const capa = p.capa ? (copyFileSync(join(src, p.capa), `midia/${p.id}/${p.capa}`), `midia/${p.id}/${p.capa}`) : undefined;
-    add({ id: p.id, quando: p.quando, etapa: p.etapa, fonte: "volume", tipo: p.tipo, arquivos, ...(capa ? { capa } : {}), legenda: p.legenda ?? "(story, sem legenda)" });
+    add({ id: p.id, quando: p.quando, etapa: p.etapa, fonte: "volume", formato: p.formato, tipo: p.tipo, arquivos, ...(capa ? { capa } : {}), legenda: p.legenda ?? "(story, sem legenda)" });
   }
 }
 
