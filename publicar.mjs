@@ -1,7 +1,7 @@
 // Robô de publicação do @infancia.pertinho (cópia do robô do @vendemaispostando, 06/10/2026) (Instagram + Página do Facebook) via Graph API.
 // Roda no GitHub Actions a cada 15 min: publica o que está em agenda.json com horário vencido e marca como feito.
 // Segredos: META_PAGE_TOKEN (token de página que não expira), IG_USER_ID, PAGE_ID.
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { execSync } from "node:child_process";
 
 const G = "https://graph.facebook.com/v23.0";
@@ -14,6 +14,7 @@ if (!TOKEN || !IG) { console.log("sem META_PAGE_TOKEN/IG_USER_ID ainda: nada pub
 // Estado salvo no repo na hora (antes e depois de cada publicação), mesclando só o que ESTA rodada mudou por cima
 // da versão mais nova do remoto. Assim uma rodada que falha no push nunca faz outra republicar o mesmo post.
 const original = new Map(agenda.map((p) => [p.id, JSON.stringify(p)]));
+let contaJson = null; // métricas da conta (conta.json), gravadas junto da agenda pelo salvar()
 function salvar(msg) {
   if (process.env.TESTE || DRY || !REPO) return;
   const sh = (c) => execSync(c, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
@@ -33,7 +34,8 @@ function salvar(msg) {
       sh("git reset -q --hard origin/main");
       writeFileSync("agenda.json", JSON.stringify(remoto, null, 1));
       sh("git add agenda.json");
-      if (sh("git status --porcelain agenda.json").trim()) { sh(`git -c user.name=robo-agenda -c user.email=robo@users.noreply.github.com commit -q -m "agenda: ${msg}"`); sh("git push -q origin HEAD:main"); }
+      if (contaJson) { writeFileSync("conta.json", contaJson); sh("git add conta.json"); }
+      if (sh("git status --porcelain agenda.json conta.json").trim()) { sh(`git -c user.name=robo-agenda -c user.email=robo@users.noreply.github.com commit -q -m "agenda: ${msg}"`); sh("git push -q origin HEAD:main"); }
       for (const p of agenda) original.set(p.id, JSON.stringify(p));
       return;
     } catch (e) { console.error("salvar tentativa", t + 1, String(e.message).slice(0, 120)); execSync("sleep " + (3 + t * 4)); }
@@ -176,4 +178,18 @@ async function coletarMetricas() {
     } catch (e) { if (/permission|scope|#10|#200/i.test(e.message)) { semInsights = true; console.log("insights sem permissão ainda"); } }
   }
   console.log("metricas atualizadas", agenda.filter((x) => x.metricas).length);
+  await metricasConta().catch((e) => console.error("metricas da conta", e.message));
+}
+
+// 06/10 (Pertinho): métricas da conta por dia em conta.json (alcance, visitas ao perfil, cliques no link da bio,
+// seguidores), pra acompanhar a meta de vendas do orgânico. Precisa de instagram_manage_insights no token.
+async function metricasConta() {
+  const conta = existsSync("conta.json") ? JSON.parse(readFileSync("conta.json", "utf8")) : {};
+  const hoje = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
+  const r = await api(`${IG}/insights`, { metric: "reach,profile_views,website_clicks,accounts_engaged,total_interactions", period: "day", metric_type: "total_value" }, "GET");
+  const me = await api(IG, { fields: "followers_count,media_count" }, "GET");
+  conta[hoje] = { ...Object.fromEntries((r.data || []).map((m) => [m.name, m.total_value?.value ?? null])), seguidores: me.followers_count, posts: me.media_count, atualizado: new Date().toISOString() };
+  contaJson = JSON.stringify(conta, null, 1);
+  writeFileSync("conta.json", contaJson);
+  console.log("conta", hoje, JSON.stringify(conta[hoje]));
 }
