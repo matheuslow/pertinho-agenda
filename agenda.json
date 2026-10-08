@@ -19,7 +19,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 0,
    "visualizacoes": 0,
    "envios": 0,
@@ -50,7 +50,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 2,
    "visualizacoes": 1,
    "envios": 0,
@@ -80,7 +80,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 10,
    "visualizacoes": 2,
    "envios": 0,
@@ -151,7 +151,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 1,
    "visualizacoes": 2,
    "envios": 0,
@@ -181,7 +181,7 @@
   "metricas": {
    "curtidas": 1,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 1,
    "visualizacoes": 1,
    "envios": 0,
@@ -211,7 +211,7 @@
   "metricas": {
    "curtidas": 1,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 6,
    "visualizacoes": 8,
    "envios": 0,
@@ -267,7 +267,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 1,
    "visualizacoes": 3,
    "envios": 0,
@@ -339,7 +339,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 1,
    "visualizacoes": 1,
    "envios": 0,
@@ -370,7 +370,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 0,
    "visualizacoes": 1,
    "envios": 0,
@@ -421,7 +421,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 0,
    "visualizacoes": 0,
    "envios": 0,
@@ -475,7 +475,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 0,
    "visualizacoes": 0,
    "envios": 0,
@@ -505,7 +505,7 @@
   "metricas": {
    "curtidas": 0,
    "comentarios": 0,
-   "atualizado": "2026-10-08T12:05:49.049Z",
+   "atualizado": "2026-10-08T15:05:05.126Z",
    "alcance": 0,
    "visualizacoes": 0,
    "envios": 0,
@@ -531,7 +531,14 @@
   "container": "18122798803803649",
   "publicar_tentado": "2026-10-08T12:33:42.628Z",
   "ig": "18179235094440961",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18179235094440961",
+  "link": "https://www.instagram.com/reel/DeO8XAmgKcH/",
+  "metricas": {
+   "curtidas": 0,
+   "comentarios": 0,
+   "atualizado": "2026-10-08T15:05:05.126Z"
+  }
  },
  {
   "id": "10-08-10h00-story",
@@ -547,7 +554,11 @@
   "container": "18122816272803649",
   "publicar_tentado": "2026-10-08T13:27:41.454Z",
   "ig": "18123048241980545",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18123048241980545",
+  "metricas": {
+   "atualizado": "2026-10-08T15:05:05.126Z"
+  }
  },
  {
   "id": "10-08-10h30-story",
@@ -564,7 +575,11 @@
   "container": "18122821858803649",
   "publicar_tentado": "2026-10-08T13:53:20.716Z",
   "ig": "18103511456366774",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18103511456366774",
+  "metricas": {
+   "atualizado": "2026-10-08T15:05:05.126Z"
+  }
  },
  {
   "id": "10-08-10h45",
@@ -588,7 +603,14 @@
   "container": "18122822431803649",
   "publicar_tentado": "2026-10-08T13:54:40.064Z",
   "ig": "18632530423020619",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18632530423020619",
+  "link": "https://www.instagram.com/p/DePFqDbGBR5/",
+  "metricas": {
+   "curtidas": 0,
+   "comentarios": 0,
+   "atualizado": "2026-10-08T15:05:05.126Z"
+  }
  },
  {
   "id": "10-08-12h00",
@@ -606,7 +628,14 @@
   "container": "18122840686803649",
   "publicar_tentado": "2026-10-08T15:04:50.433Z",
   "ig": "18107764703245804",
-  "fb": "pular"
+  "fb": "pular",
+  "ig_media": "18107764703245804",
+  "link": "https://www.instagram.com/reel/DePNnxVDTNW/",
+  "metricas": {
+   "curtidas": 0,
+   "comentarios": 0,
+   "atualizado": "2026-10-08T15:05:05.126Z"
+  }
  },
  {
   "id": "10-08-12h30",
