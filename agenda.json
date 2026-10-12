@@ -2094,7 +2094,10 @@
   "capa": "midia/10-12-09h00/capa.jpg",
   "legenda": "Feliz Dia das Crianças 🧡 Pra eles e pra criança que você foi.\n\nHoje, o presente que fica é você ali, de verdade. 15 minutos já bastam.\n\nAo meio-dia sai aqui o roteiro do dia em casa, de manhã até a hora de dormir.\n\n#diadascriancas #brincadeirasinfantis #brincarjunto #maternidadereal #infancia",
   "formato": "calendario",
-  "thumb": "midia/10-12-09h00/thumb.jpg"
+  "thumb": "midia/10-12-09h00/thumb.jpg",
+  "trial": false,
+  "container": "18124351762803649",
+  "publicar_tentado": "2026-10-12T21:54:07.084Z"
  },
  {
   "id": "10-12-09h30",
