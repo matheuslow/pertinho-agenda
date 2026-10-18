@@ -4475,10 +4475,10 @@
   "formato": "meconta",
   "thumb": "midia/10-17-20h45/thumb.jpg",
   "trial": false,
-  "erro_ig": "container com erro: Error: Media upload has failed with error code 2207052",
   "fb": "pular",
   "container": "18126051703803649",
-  "publicar_tentado": "2026-10-18T05:48:42.572Z"
+  "publicar_tentado": "2026-10-18T05:48:42.572Z",
+  "ig": "18019794767940823"
  },
  {
   "id": "10-17-21h00-story",
