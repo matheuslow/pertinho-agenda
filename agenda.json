@@ -4473,7 +4473,10 @@
   "capa": "midia/10-17-20h45/capa.jpg",
   "legenda": "Troca o “como foi a escola?” por:\n\n• Se eu virasse um bicho amanhã, qual você acha que eu seria?\n• Que nome você daria para uma nuvem que mora aqui?\n• Qual roupa minha parece saída de uma história engraçada?\n\nDica: você responde primeiro. Ele vem atrás.\n\nEssas perguntas são do Me Conta, dentro do Pertinho.\n\nNo Pertinho tem mais de 60 assim, pra 2 a 6 anos, e você escolhe pelo tempo e pela energia de hoje. Link na bio pra ver como funciona\n\n#brincadeiraemcasa #maternidade #infanciafeliz #maedemenino #maedemenina",
   "formato": "meconta",
-  "thumb": "midia/10-17-20h45/thumb.jpg"
+  "thumb": "midia/10-17-20h45/thumb.jpg",
+  "trial": false,
+  "erro_ig": "container com erro: Error: Media upload has failed with error code 2207052",
+  "fb": "pular"
  },
  {
   "id": "10-17-21h00-story",
