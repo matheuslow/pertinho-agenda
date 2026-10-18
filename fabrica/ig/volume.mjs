@@ -7,7 +7,7 @@
 // sem depoimento inventado, sem "educativo/desenvolvimento/estímulo", inglês = "mais um jeito de brincar junto".
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { renderCards, top, logo, card, front, phone, art, tela, OUT, ARTS, LINK } from "./kit.mjs";
+import { renderCards, top, logo, card, front, phone, art, tela, OUT, ARTS, LINK, HANDLE } from "./kit.mjs";
 import { F, ST, FD, SY } from "./pecas.mjs";
 import { M } from "./missoes.mjs";
 import { S, renderReel } from "./reel-engine.mjs";
@@ -195,6 +195,71 @@ const STORY_HORAS = ["08:00", "10:30", "13:00", "15:30", "18:00", "21:00"];
 // Feed (06/10, Matheus): 12 por dia, 7 reels + 5 carrosséis, pra alcance e seguidor (dica + dor + CTA)
 const FEED_HORAS = ["07:00", "08:15", "09:30", "10:45", "12:00", "13:15", "14:30", "15:45", "17:00", "18:15", "19:30", "20:45", "21:45"];
 
+// ── 18/10 (Matheus): reels só de DOR, pra ganhar seguidor, e uma VSL de 7 stories por dia ──────────────────────────
+// O único reel que andou foi o de dor ("15 minutos antes do banho que viram briga", 120 de alcance, ~40x a média).
+// Reel: dor específica → "não é falta de amor" → como o app resolve → a brincadeira de hoje (o valor que faz seguir) → Seguir.
+DORES.push(
+  "o banho virou uma negociação <span class='hl'>de 40 minutos</span>",
+  "domingo, 6h da manhã, e ele <span class='hl'>com toda a energia</span>",
+  "você promete brincar depois e <span class='hl'>o depois não chega</span>",
+  "ele só sossega <span class='hl'>com o tablet na mão</span>",
+  "a hora de desligar a TV <span class='hl'>vira choro</span>",
+  "você brinca, mas <span class='hl'>com a cabeça no trabalho</span>",
+  "18h30, a casa um caos e ele: <span class='hl'>brinca comigo?</span>",
+  "ele te chama 20 vezes enquanto <span class='hl'>você faz a janta</span>",
+  "fim de semana chegando e <span class='hl'>nenhum plano sem tela</span>",
+  "ele implica com o irmão porque <span class='hl'>tá entediado</span>",
+  "você chega do trabalho e <span class='hl'>só queria deitar</span>",
+  "a mesma pergunta toda noite: <span class='hl'>do que a gente brinca?</span>",
+  "ele pediu 5 minutos e você <span class='hl'>tava no celular</span>",
+  "o dia inteiro fora e <span class='hl'>a culpa chega junto com você</span>",
+);
+const SEGUE = (dur = 3.4) => S.raw(`<div class="abs" style="left:80px;right:150px;top:430px;text-align:center">
+<div data-in="0" style="margin-bottom:60px">${logo(78)}</div>
+<div class="h" data-in="0.2" style="font-size:96px">Uma brincadeira pronta por dia</div>
+<div class="b" data-in="0.5" style="margin-top:36px;font-size:46px">do tamanho da energia que sobrou</div>
+<div data-in="0.9" style="margin-top:70px"><span class="pill" style="font-size:48px;padding:30px 60px;background:var(--sand);color:var(--clay7)">+ Seguir ${HANDLE}</span></div></div>`, dur, "clay");
+REELS.dorSegue = (k) => { const m = brincDe(); const d = pega(DORES, "d"); const dt = d.replace(/<[^>]+>/g, ""); return { etapa: "topo", scenes: [
+  S.hook(d, clip(), 2.8, 88),
+  S.caps(["não é falta de amor", "é decidir cansada, toda noite, do zero"], clip(20), 3.2),
+  S.app("Você diz o tempo e a energia", [TELAS[0], TELAS[Math.min(2, TELAS.length - 1)], TELAS[Math.min(5, TELAS.length - 1)]], 4, [[0.9, 285, 700]], "e aparece por onde começar"),
+  S.card("Faz essa hoje", m, 5),
+  SEGUE(),
+], legenda: `${dt[0].toUpperCase() + dt.slice(1)}${/[?!]$/.test(dt) ? "" : "."} Não é falta de amor. É decidir cansada, toda noite, do zero.\n\nFaz essa hoje (${m.min} min, ${m.mat.toLowerCase()}):\n\n${m.t}\n${passosTxt(m)}\n\nSegue o ${HANDLE}: todo dia tem uma brincadeira pronta aqui, pra filhos de 2 a 6 anos. Salva essa e manda pra quem também vive esse horário 🧡\n\nQuer escolher pela energia de cada dia? É o Pertinho, no link da bio.\n\n${TAGS[k % TAGS.length]}` }; };
+
+// VSL diária em 7 stories (publicados em sequência, 19h00 a 19h06): gancho → dor → virada → mecanismo → exemplo →
+// objeção → oferta + caminho do link. Gancho, dor e objeção giram por dia. Só o último pede o clique.
+const VSL_DOR = [...DORES_ST,
+  ["Você não precisa de mais paciência", "precisa parar de decidir do zero toda noite"],
+  ["Ele não lembra do que você comprou", "lembra do que vocês fizeram juntos"],
+  ["15 minutos de você valem mais", "que 2 horas de desenho"]];
+const VSL_OBJ = [
+  ["“É mais uma tela?”", "Não. O celular só mostra a ideia. A brincadeira é no chão da sala, com vocês dois"],
+  ["“Não tenho tempo”", "Tem brincadeira de 5 minutos. E dá pra fazer deitada, no fim do dia"],
+  ["“Ele só quer saber de tela”", "Por isso a ideia vem pronta. Você chama com uma brincadeira nova e a tela perde pra você"],
+  ["“Eu não sei brincar”", "Ninguém precisa saber. Cada brincadeira vem em 3 passos curtos"],
+  ["“Tem mensalidade?”", "Não. Pagamento único, e é seu pra sempre"],
+  ["“E se não for pra nós?”", "Você tem 7 dias de garantia e recebe todo o valor de volta"],
+  ["“Preciso baixar aplicativo?”", "Não. Abre no navegador do celular, em 1 minuto"],
+];
+const CONTINUA = `<div class="abs" style="left:0;right:0;top:1660px;text-align:center"><span class="b" style="font-size:38px;font-weight:800;opacity:.7">toca pra continuar ›</span></div>`;
+const VSL = (dn, m) => {
+  const n = (i) => top(`${i}/7`);
+  const [g, gs] = PROVOCA[dn % PROVOCA.length], [d, ds] = VSL_DOR[dn % VSL_DOR.length], [q, a] = VSL_OBJ[dn % VSL_OBJ.length];
+  const centro = (y, inner) => `<div class="abs" style="left:72px;right:72px;top:${y}px;text-align:center">${inner}</div>`;
+  return [
+    ["gancho", { cls: "clay", html: `${n(1)}${centro(420, `<div class="h" style="font-size:104px">${g}</div><div class="b" style="margin-top:56px;font-size:46px">${gs}</div>`)}${CONTINUA}` }],
+    ["dor", { cls: "ink warm", html: `${n(2)}<img class="photo" src="${art(pega(FOTOS, "f"))}" style="opacity:.42">${centro(520, `<div class="h" style="font-size:104px">${d}</div><div class="b" style="margin-top:50px;font-size:50px">${ds}</div>`)}${CONTINUA}` }],
+    ["virada", { cls: "cream warm", html: `${n(3)}${centro(400, `<div class="b" style="font-size:52px;font-weight:800">O difícil não é brincar</div><div class="h" style="font-size:112px;margin-top:40px">É decidir <em>do zero</em>, cansada, toda noite</div><div class="b" style="margin-top:56px;font-size:46px">e quando a ideia não vem, a tela ganha</div>`)}${CONTINUA}` }],
+    ["mecanismo", { cls: "blush", html: `${n(4)}${centro(190, `<span class="k">O jeito do Pertinho</span><div class="h" style="font-size:76px;margin-top:22px">Você diz quanto tempo e quanta energia tem</div>`)}${phone(tela(TELAS[0]), 120, 560, 400, -4)}${phone(tela(TELAS[Math.min(5, TELAS.length - 1)]), 560, 600, 400, 4)}<div class="abs" style="left:72px;right:72px;top:1520px;text-align:center"><div class="b" style="font-size:46px;font-weight:800">e ele mostra uma brincadeira pronta</div></div>${CONTINUA}` }],
+    ["exemplo", { cls: "blush", html: `${n(5)}<div class="abs" style="left:72px;right:150px;top:200px"><span class="k">pra hoje à noite</span><div class="h" style="font-size:80px;margin-top:22px">Saiu essa</div></div>${card(m, 66, 450, 800, 0, "zoom:1.15")}${CONTINUA}` }],
+    ["objecao", { cls: "cream", html: `${n(6)}${centro(480, `<div class="h" style="font-size:100px">${q}</div><div class="b" style="margin-top:64px;font-size:54px;line-height:1.4">${a}</div>`)}${CONTINUA}` }],
+    ["oferta", { cls: "clay", html: `${n(7)}<div class="abs" style="left:72px;right:72px;top:210px"><div class="h" style="font-size:88px">O que vem no Pertinho</div>
+<div class="b" style="font-size:46px;line-height:1.6;margin-top:40px">✓ Mais de 60 brincadeiras de 2 a 6 anos<br>✓ Você escolhe pelo tempo e pela energia<br>✓ Me Conta e Álbum<br>✓ Bônus: 100 cards de inglês<br>✓ Pagamento único e 7 dias de garantia</div></div>
+<div class="abs" style="left:0;right:0;top:1230px;text-align:center"><div class="b" style="font-size:46px;font-weight:800">Toca no nosso nome aqui em cima ↑</div><div style="margin-top:34px"><span class="pill" style="font-size:52px;padding:32px 60px;background:var(--sand);color:var(--clay7)">e depois no link da bio</span></div><div class="b" style="margin-top:28px;font-size:36px">${LINK} · ${HANDLE}</div></div>` }],
+  ];
+};
+
 // ── montagem do dia ──────────────────────────────────────────────────────────────────────────────────────────────
 const agenda = existsSync(AGENDA) ? JSON.parse(readFileSync(AGENDA, "utf8")) : [];
 const lote = [], cards = [], reels = [];
@@ -205,29 +270,17 @@ for (const [di, data] of DATAS.entries()) {
   const tem = (t) => ja.filter((p) => p.tipo === t).length;
   const livre = (horas) => horas.filter((h) => !ja.some((p) => Math.abs(new Date(p.quando) - new Date(`${data}T${h}:00-03:00`)) < 25 * 60e3));
   const base = `04-volume/${data}`;
-  const nR = Math.max(0, 7 - tem("reel")), nC = Math.max(0, 5 - tem("carrossel")), nS = Math.max(0, 6 - tem("story"));
-  const mixR = ["brinc", "dor", "lista", "memoria", "brinc", "ingles", dn % 2 ? "produto" : "meconta"];
-  const fila = [];
-  for (let r = 0, c = 0; r < nR || c < nC;) { if (r < nR) fila.push(["reel", r++]); if (c < nC) fila.push(["carrossel", c++]); }
-  livre(FEED_HORAS).slice(0, fila.length).forEach((h, k) => {
-    const [tipoPub, i] = fila[k], id = `${data.slice(5)}-${h.replace(":", "h")}`;
-    if (tipoPub === "reel") {
-      const tipo = mixR[i % mixR.length], r = REELS[tipo](dn * 10 + i), pasta = `${base}/${h.replace(":", "h")}-reel-${tipo}`;
-      reels.push({ pasta, scenes: r.scenes });
-      lote.push({ id, quando: `${data}T${h}:00-03:00`, etapa: r.etapa, formato: tipo, tipo: "reel", pasta, arquivos: ["reel.mp4"], capa: "capa.jpg", legenda: r.legenda });
-    } else {
-      const tipo = MIX_CARROS[i % MIX_CARROS.length], c = CARROS[tipo](dn * 5 + i), pasta = `${base}/${h.replace(":", "h")}-carrossel-${tipo}`;
-      c.slides.forEach((s, j) => cards.push({ out: `${pasta}/${j + 1}.jpg`, ...FD, cls: s.cls, html: s.html }));
-      lote.push({ id, quando: `${data}T${h}:00-03:00`, etapa: c.etapa, formato: tipo, tipo: "carrossel", pasta, arquivos: c.slides.map((_, j) => `${j + 1}.jpg`), legenda: c.legenda });
-    }
+  // 18/10: 2 reels de dor (12h15 e 21h30) + VSL de 7 stories (19h00 a 19h06). Sem carrossel.
+  ix.d = dn * 2;
+  livre(["12:15", "21:30"]).forEach((h, i) => {
+    const id = `${data.slice(5)}-${h.replace(":", "h")}`, r = REELS.dorSegue(dn * 10 + i), pasta = `${base}/${h.replace(":", "h")}-reel-dor`;
+    reels.push({ pasta, scenes: r.scenes });
+    lote.push({ id, quando: `${data}T${h}:00-03:00`, etapa: r.etapa, formato: "dor", tipo: "reel", pasta, arquivos: ["reel.mp4"], capa: "capa.jpg", legenda: r.legenda });
   });
-  livre(STORY_HORAS).slice(0, nS).forEach((h, i) => {
-    const t = STORY_SEQ[i];
-    const s = t === "provoca" ? STV.provoca(PROVOCA[(dn + i) % PROVOCA.length]) : t === "dor" ? STV.dor(DORES_ST[(dn + i) % DORES_ST.length])
-      : t === "mecanismo" || t === "brinc" ? STV[t](brincDe()) : STV[t]();
-    const pasta = `${base}/stories`, nome = `${h.replace(":", "h")}-${t}.jpg`;
-    cards.push({ out: `${pasta}/${nome}`, ...SY, cls: s.cls, html: s.html });
-    lote.push({ id: `${data.slice(5)}-${h.replace(":", "h")}-story`, quando: `${data}T${h}:00-03:00`, etapa: "story", formato: t, tipo: "story", pasta, arquivos: [nome] });
+  VSL(dn, brincDe()).forEach(([t, st], i) => {
+    const h = `19:0${i}`, pasta = `${base}/stories`, nome = `${h.replace(":", "h")}-vsl-${t}.jpg`;
+    cards.push({ out: `${pasta}/${nome}`, ...SY, cls: st.cls, html: st.html });
+    lote.push({ id: `${data.slice(5)}-${h.replace(":", "h")}-story`, quando: `${data}T${h}:00-03:00`, etapa: "story", formato: `vsl-${t}`, tipo: "story", pasta, arquivos: [nome] });
   });
 }
 const loteDir = join(OUT, "04-volume");
