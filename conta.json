@@ -120,13 +120,23 @@
   "atualizado": "2026-10-23T01:08:06.967Z"
  },
  "2026-10-23": {
-  "reach": 7,
+  "reach": 6,
+  "profile_views": 0,
+  "website_clicks": 0,
+  "accounts_engaged": 0,
+  "total_interactions": 0,
+  "seguidores": 17,
+  "posts": 128,
+  "atualizado": "2026-10-23T23:04:24.261Z"
+ },
+ "2026-10-24": {
+  "reach": 9,
   "profile_views": 0,
   "website_clicks": 0,
   "accounts_engaged": 0,
   "total_interactions": 0,
   "seguidores": 17,
   "posts": 129,
-  "atualizado": "2026-10-24T02:06:29.549Z"
+  "atualizado": "2026-10-24T04:32:23.201Z"
  }
 }
