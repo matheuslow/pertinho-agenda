@@ -10517,7 +10517,9 @@
    "midia/11-12-19h04-story/19h04-vsl-exemplo.jpg"
   ],
   "legenda": "(story, sem legenda)",
-  "thumb": "midia/11-12-19h04-story/thumb.jpg"
+  "thumb": "midia/11-12-19h04-story/thumb.jpg",
+  "erro_ig": "fetch failed",
+  "fb": "pular"
  },
  {
   "id": "11-12-19h05-story",
